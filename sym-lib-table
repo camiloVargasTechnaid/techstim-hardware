@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LD39050PU33R")(type "Legacy")(uri "${KIPRJMOD}/libraries/LD39050PU33R/LD39050PU33R.lib")(options "")(descr ""))
+)

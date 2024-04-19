@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA149AMDREP
+D Enhanced Product High Common Mode Voltage Difference Amplifier
+K
+F http://www.ti.com/lit/gpn/ina149-ep
+$ENDCMP
+#
+#End Doc Library
