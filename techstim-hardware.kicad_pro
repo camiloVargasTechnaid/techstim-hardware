@@ -616,6 +616,14 @@
     [
       "6f1c9813-6d9b-43a0-a5d7-e66a0b6ca03e",
       "ISO_DAC"
+    ],
+    [
+      "be4170ac-acbe-4846-95eb-caba09b1a46c",
+      "HV_Switch"
+    ],
+    [
+      "2a4d6a24-4920-45e5-b1da-9a132104b07c",
+      "HV_Switch_HV2701"
     ]
   ],
   "text_variables": {}

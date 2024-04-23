@@ -2723,6 +2723,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 72.39) (xy 58.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae23ce35-d001-4732-9a94-ad8c71d6e4f4")
+	)
+	(wire
+		(pts
 			(xy 82.55 125.73) (xy 85.09 125.73)
 		)
 		(stroke
@@ -2750,6 +2760,16 @@
 			(type default)
 		)
 		(uuid "b867233e-d05b-41cf-944a-d22155bfb2fe")
+	)
+	(wire
+		(pts
+			(xy 54.61 77.47) (xy 58.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d5e3c6-4279-49f1-adcb-c8bf42feb865")
 	)
 	(wire
 		(pts
@@ -2921,17 +2941,6 @@
 		)
 		(uuid "f8f6211a-6629-471e-a91b-80d8d1f854c1")
 	)
-	(label "+3V3ISO"
-		(at 161.29 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45216f32-06f4-4b25-bb89-10ec0bfa7a8b")
-	)
 	(global_label "+3.3V"
 		(shape output)
 		(at 57.15 60.96 90)
@@ -2997,6 +3006,42 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 54.61 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25614d90-9ba3-4fa3-88a1-1d99fd438c18")
+	)
+	(hierarchical_label "+3V3ISO"
+		(shape output)
+		(at 161.29 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61859f9c-7779-405f-9b27-f1553270ebb3")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 54.61 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c48cd73e-8e26-43ff-adaa-36b3cedc79c6")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4837,6 +4882,72 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/6f1c9813-6d9b-43a0-a5d7-e66a0b6ca03e"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 101.6 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f47d67fa-eb93-4621-b4a5-668e3eb53d92")
+		(property "Reference" "#PWR038"
+			(at 101.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3ISO"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27527dd5-9053-4f44-abe1-3b8aa79f3146")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/6f1c9813-6d9b-43a0-a5d7-e66a0b6ca03e"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
