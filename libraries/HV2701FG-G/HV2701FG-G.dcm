@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HV2701FG-G
+D The Supertex HV2701 is a low charge injection, 16-channel, high voltage, analog switch integrated circuit (IC) with bleed resistors. The device can be used in applications requiring high voltage switching controlled by low voltage control signals, such as medical ultrasound imaging and piezoelectric transducer drivers. The bleed resistors eliminate voltage built up on capacitive loads such as piezoelectric transducers.
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/SUPR/SUPRS02903/SUPRS02903-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0
+$ENDCMP
+#
+#End Doc Library
