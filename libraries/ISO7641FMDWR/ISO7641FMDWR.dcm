@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISO7641FMDWR
+D 6kVpk Low Power Quad Channels, 150Mbps Digital Isolators
+K
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fiso7641fm
+$ENDCMP
+#
+#End Doc Library

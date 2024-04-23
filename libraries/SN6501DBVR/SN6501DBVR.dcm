@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN6501DBVR
+D Low-noise, 350 mA, 410-kHz transformer driver for isolated power supplies
+K
+F http://www.ti.com/lit/gpn/sn6501
+$ENDCMP
+#
+#End Doc Library
