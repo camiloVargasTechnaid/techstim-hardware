@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "ECS-.327-9-34RR-TR")(type "KiCad")(uri "${KIPRJMOD}/libraries/ECS-.327-9-34RR-TR")(options "")(descr "")(disabled))
   (lib (name "760390014")(type "KiCad")(uri "${KIPRJMOD}/libraries/760390014")(options "")(descr ""))
+  (lib (name "LEMO-EXG.0B.304.HLN")(type "KiCad")(uri "${KIPRJMOD}/libraries/EXG.0B.304.HLN/LEMO-EXG.0B.304.HLN.pretty")(options "")(descr ""))
+  (lib (name "PA78DK")(type "KiCad")(uri "${KIPRJMOD}/libraries/PA78DK")(options "")(descr ""))
 )
