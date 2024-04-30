@@ -1415,13 +1415,14 @@
 		)
 		(uuid "fe15cd06-d1ed-4166-9b90-c1ce2253e015")
 	)
-	(text "* All resistors tolerance 0.1% at least."
+	(text "* All resistors tolerance are 0.1% or less.\n* Capactiros are NP0."
 		(exclude_from_sim no)
 		(at 178.562 107.696 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "43221381-e9a1-4d66-a623-89122ffd4670")
 	)
