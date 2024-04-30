@@ -2192,7 +2192,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "14.2k"
 			(at 127.508 66.04 90)
 			(effects
 				(font
@@ -2209,7 +2209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.dk/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.vishay.com/doc?28758"
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -2218,7 +2218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD 1/8W 20K ohm .1% 25p pm"
+		(property "Description" "Thin Film Resistors - SMD 1/5W 14.2K ohm .1% 25p pm"
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -2227,7 +2227,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "YAGEO"
+		(property "MFN" "Vishay / Dale"
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -2236,7 +2236,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFP" "RT0805BRD0720KL"
+		(property "MFP" "TNPW080514K2BEEA"
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -2254,7 +2254,7 @@
 				(hide yes)
 			)
 		)
-		(property "S1PL" "https://www.mouser.dk/ProductDetail/YAGEO/RT0805BRD0720KL?qs=sGAEpiMZZMtlubZbdhIBINiNOdHvEUleF5hAG6YbgpQ%3D"
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-Dale/TNPW080514K2BEEA?qs=NrXEK%2Fuukt5PsC1jRy0sxw%3D%3D"
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -2273,6 +2273,110 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/1d3760c1-b1be-4d74-b732-ff8fe2c40888"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 69.85 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b6de311-a666-4a81-9235-27aab2afe177")
+		(property "Reference" "R10"
+			(at 123.698 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "14.2k"
+			(at 133.858 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.27 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?28758"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD 1/5W 14.2K ohm .1% 25p pm"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay / Dale"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "TNPW080514K2BEEA"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-Dale/TNPW080514K2BEEA?qs=NrXEK%2Fuukt5PsC1jRy0sxw%3D%3D"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5a2638b-8b6b-41bb-85ff-b95168a01ce0")
+		)
+		(pin "2"
+			(uuid "b2595906-dbc1-4461-9fde-a4dea6f52536")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/1d3760c1-b1be-4d74-b732-ff8fe2c40888"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2587,109 +2691,6 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/1d3760c1-b1be-4d74-b732-ff8fe2c40888"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 128.27 69.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9454a63f-f298-4f4d-9d8f-50ca47f56bfa")
-		(property "Reference" "R10"
-			(at 123.444 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 133.604 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 128.27 68.072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.dk/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
-			(at 128.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thin Film Resistors - SMD 1/8W 20K ohm .1% 25p pm"
-			(at 128.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "YAGEO"
-			(at 128.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" "RT0805BRD0720KL"
-			(at 128.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PN" "Mouser"
-			(at 128.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PL" "https://www.mouser.dk/ProductDetail/YAGEO/RT0805BRD0720KL?qs=sGAEpiMZZMtlubZbdhIBINiNOdHvEUleF5hAG6YbgpQ%3D"
-			(at 128.27 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e97cc0a-1fa5-474d-abe2-81300a62675c")
-		)
-		(pin "2"
-			(uuid "7f845f88-a9ba-4c94-9ca8-af4e5fa611dd")
-		)
-		(instances
-			(project "techstim-hardware"
-				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/1d3760c1-b1be-4d74-b732-ff8fe2c40888"
-					(reference "R10")
 					(unit 1)
 				)
 			)
