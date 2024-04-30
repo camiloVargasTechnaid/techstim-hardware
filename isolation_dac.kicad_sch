@@ -4677,7 +4677,7 @@
 		)
 		(uuid "56509a96-e20d-4b91-b8c9-72bd38d2406f")
 	)
-	(hierarchical_label "+3V3ISO"
+	(hierarchical_label "+5VISO"
 		(shape output)
 		(at 166.37 123.19 0)
 		(fields_autoplaced yes)
@@ -5296,7 +5296,7 @@
 				)
 			)
 		)
-		(property "Value" "REF35500QDBVR"
+		(property "Value" "REF35409QDBVR"
 			(at 45.085 17.78 0)
 			(effects
 				(font
@@ -5363,23 +5363,39 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 64.77 715.24 0)
+		(property "MFN" "Texas Instruments"
+			(at 38.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "REF35500QDBVR"
-			(at 64.77 815.24 0)
+		(property "MFP" "REF35500QDBVR"
+			(at 38.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 38.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Texas-Instruments/REF35409QDBVR?qs=Jm2GQyTW%2FbgBTryVLY6N3g%3D%3D"
+			(at 38.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5494,7 +5510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+3V3ISO"
+		(property "Value" "+5VISO"
 			(at 163.576 119.634 0)
 			(effects
 				(font
@@ -6660,7 +6676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3ISO"
+		(property "Value" "+5VISO"
 			(at 184.15 21.59 0)
 			(effects
 				(font
@@ -6830,7 +6846,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS76333"
+		(property "Value" "TPS76350DBVRG4"
 			(at 147.32 119.38 0)
 			(effects
 				(font
@@ -6848,7 +6864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps763.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps763"
 			(at 147.32 125.73 0)
 			(effects
 				(font
@@ -6857,7 +6873,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Low power 150mA LDO 3.3V fixed output voltage, SOT-23-5"
+		(property "Description" "Low power 150mA LDO 5V fixed output voltage, SOT-23-5"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Texas Instruments"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "TPS76350DBVRG4"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Texas-Instruments/TPS76350DBVRG4?qs=6zVL%252ByCp0mrPdp%252BxKum%252BJw%3D%3D"
 			(at 147.32 125.73 0)
 			(effects
 				(font
@@ -6908,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Value" "760390014"
+		(property "Value" "760390015"
 			(at 92.71 118.11 0)
 			(effects
 				(font
@@ -6955,7 +7007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "710-760390014"
+		(property "Mouser Part Number" "710-760390050"
 			(at 104.14 615.57 0)
 			(effects
 				(font
@@ -6975,27 +7027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 104.14 815.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "760390014"
-			(at 104.14 915.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MFN" ""
+		(property "MFN" "Wurth Elektronik"
 			(at 87.63 120.65 0)
 			(effects
 				(font
@@ -7004,7 +7036,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFP" ""
+		(property "MFP" "760390015"
 			(at 87.63 120.65 0)
 			(effects
 				(font
@@ -7013,7 +7045,7 @@
 				(hide yes)
 			)
 		)
-		(property "S1PN" ""
+		(property "S1PN" "Mouser"
 			(at 87.63 120.65 0)
 			(effects
 				(font
@@ -7022,7 +7054,7 @@
 				(hide yes)
 			)
 		)
-		(property "S1PL" ""
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Wurth-Elektronik/760390015?qs=wElim4iM2pjOQCmk%252B8YbFA%3D%3D"
 			(at 87.63 120.65 0)
 			(effects
 				(font
@@ -7076,7 +7108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3ISO"
+		(property "Value" "+5VISO"
 			(at 156.21 116.332 0)
 			(effects
 				(font
@@ -7511,7 +7543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3ISO"
+		(property "Value" "+5VISO"
 			(at 21.59 16.51 0)
 			(effects
 				(font
@@ -7961,7 +7993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3ISO"
+		(property "Value" "+5VISO"
 			(at 114.3 16.51 0)
 			(effects
 				(font
@@ -8847,7 +8879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3ISO"
+		(property "Value" "+5VISO"
 			(at 97.79 53.34 0)
 			(effects
 				(font
