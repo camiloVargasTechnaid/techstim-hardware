@@ -468,9 +468,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "3DMODELS/techstim-hardware.step",
+      "step": "3dmodels/techstim-hardware.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "techstim-hardware.wrl"
     },
     "page_layout_descr_file": ""
   },

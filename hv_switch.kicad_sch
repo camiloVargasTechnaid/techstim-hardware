@@ -789,7 +789,7 @@
 				)
 			)
 		)
-		(symbol "power:GNDA"
+		(symbol "power:GND3"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -806,7 +806,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GNDA"
+			(property "Value" "GND3"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -832,7 +832,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -850,7 +850,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GNDA_0_1"
+			(symbol "GND3_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -864,7 +864,7 @@
 					)
 				)
 			)
-			(symbol "GNDA_1_1"
+			(symbol "GND3_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -4053,17 +4053,17 @@
 		(uuid "fc15a07f-8ef7-499b-9a2a-8fe2d983dfaf")
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 161.29 105.41 0)
+		(lib_id "power:GND3")
+		(at 154.94 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08a41354-35d0-4ace-bb66-c01dab4f7a4d")
-		(property "Reference" "#PWR096"
-			(at 161.29 111.76 0)
+		(uuid "10e508c3-bc5d-4a1e-8ce4-b5e7de617812")
+		(property "Reference" "#PWR061"
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,8 +4071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 161.29 110.49 0)
+		(property "Value" "GNDISO"
+			(at 154.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +4080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 105.41 0)
+			(at 154.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 105.41 0)
+			(at 154.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,8 +4097,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 161.29 105.41 0)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 154.94 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,29 +4107,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "16e6e8c2-5de8-4cf7-8723-2b9ea0b6c9dd")
+			(uuid "e94490f1-03ad-4f26-9622-68b62d0cca70")
 		)
 		(instances
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "#PWR096")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 127 133.35 0)
+		(lib_id "power:GND3")
+		(at 240.03 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "194843e2-2908-40dc-a9df-f3cc436c7a90")
-		(property "Reference" "#PWR082"
-			(at 127 139.7 0)
+		(uuid "1f2d0eff-a426-4b7f-8e38-fcd10095c3d9")
+		(property "Reference" "#PWR066"
+			(at 240.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,8 +4137,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 127 138.43 0)
+		(property "Value" "GNDISO"
+			(at 240.03 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 133.35 0)
+			(at 240.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 133.35 0)
+			(at 240.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,74 +4163,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 127 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e22ed5a0-c173-4020-9588-3c2854ba3252")
-		)
-		(instances
-			(project "techstim-hardware"
-				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 144.78 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2478f4b4-618f-49c2-aabb-60718ecbeb71")
-		(property "Reference" "#PWR094"
-			(at 144.78 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 144.78 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 144.78 133.35 0)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 240.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,12 +4173,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "000762a4-1c68-45b4-b269-80d1c4b8638f")
+			(uuid "46ad178d-6baf-434b-9d00-cf4a5e35336f")
 		)
 		(instances
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "#PWR094")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4357,138 +4291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 67.31 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44bc29be-fa74-4a54-9f9d-1446d2940455")
-		(property "Reference" "#PWR093"
-			(at 67.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 67.31 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 67.31 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72d82106-085c-4657-b106-2aa50d8a0aa6")
-		)
-		(instances
-			(project "techstim-hardware"
-				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 101.6 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "496ca770-1767-48d9-a641-fba3cb97e1a6")
-		(property "Reference" "#PWR095"
-			(at 101.6 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 101.6 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 101.6 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2f8f17c-76c4-4c09-b163-241222f5e91e")
-		)
-		(instances
-			(project "techstim-hardware"
-				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:SMAJ5.0CA")
 		(at 246.38 59.69 90)
 		(mirror x)
@@ -4589,6 +4391,72 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 67.31 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ce7c34-a0d0-430c-b18c-a71f29f2649f")
+		(property "Reference" "#PWR050"
+			(at 67.31 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDISO"
+			(at 67.31 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 67.31 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9279f141-c33b-49c3-8e08-70fcdcfef18c")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4807,17 +4675,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 154.94 50.8 0)
+		(lib_id "power:GND3")
+		(at 240.03 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8cffdd8c-f4e3-4792-9cac-93dbd3adf401")
-		(property "Reference" "#PWR097"
-			(at 154.94 57.15 0)
+		(uuid "8ece0503-40ea-4125-824e-0e4df9170c65")
+		(property "Reference" "#PWR064"
+			(at 240.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,8 +4693,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 154.94 55.88 0)
+		(property "Value" "GNDISO"
+			(at 240.03 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +4702,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 50.8 0)
+			(at 240.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 50.8 0)
+			(at 240.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,8 +4719,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 154.94 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 240.03 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,12 +4729,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6ce5cb8-83a4-4c87-8663-79148caaacf7")
+			(uuid "4ed3416d-4b34-420c-b222-902bdcd63c04")
 		)
 		(instances
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "#PWR097")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5408,138 +5276,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 203.2 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1914318-b0a7-48e5-8862-ae95254d44ff")
-		(property "Reference" "#PWR098"
-			(at 203.2 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 203.2 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 203.2 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14cf7495-4f71-4d1d-b730-769638f76e32")
-		)
-		(instances
-			(project "techstim-hardware"
-				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 203.2 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b852bd41-e3af-40c0-b2f2-97ac2271ca4d")
-		(property "Reference" "#PWR0101"
-			(at 203.2 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 203.2 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 203.2 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "104d173d-0f34-4b4f-a86e-3def4cc67b46")
-		)
-		(instances
-			(project "techstim-hardware"
-				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:SMAJ5.0CA")
 		(at 203.2 90.17 90)
 		(mirror x)
@@ -5646,17 +5382,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 240.03 99.06 0)
+		(lib_id "power:GND3")
+		(at 203.2 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb31c46d-6545-423c-b9b4-e4cb7ab61053")
-		(property "Reference" "#PWR0100"
-			(at 240.03 105.41 0)
+		(uuid "c85c274d-af5c-4dc4-b131-8e91a0284ee2")
+		(property "Reference" "#PWR063"
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,8 +5400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 240.03 104.14 0)
+		(property "Value" "GNDISO"
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +5409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 99.06 0)
+			(at 203.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +5418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 99.06 0)
+			(at 203.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,8 +5426,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 240.03 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 203.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,12 +5436,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "39aa5ddb-7e79-42ba-b44e-e86e33e5dee3")
+			(uuid "8fdf0801-d663-418f-8943-933d149359c1")
 		)
 		(instances
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "#PWR0100")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -5810,6 +5546,138 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 127 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2fe4cd0-1cfe-4845-94dc-a455c1345b35")
+		(property "Reference" "#PWR052"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDISO"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a023429-e665-4bb7-a6cf-8b6e125ef61c")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 144.78 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d61e9333-340d-4c79-be0b-7bf7c0919e1f")
+		(property "Reference" "#PWR058"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDISO"
+			(at 144.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f0d35e4-97d6-4e2b-ad76-3e0f1a1244b8")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6013,17 +5881,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 240.03 68.58 0)
+		(lib_id "power:GND3")
+		(at 101.6 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe02b76f-fc77-41a9-be58-1db1386cc477")
-		(property "Reference" "#PWR099"
-			(at 240.03 74.93 0)
+		(uuid "e3367baf-fc0b-4257-b1a0-fd8498d2832b")
+		(property "Reference" "#PWR051"
+			(at 101.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,8 +5899,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 240.03 73.66 0)
+		(property "Value" "GNDISO"
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +5908,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 68.58 0)
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +5917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 68.58 0)
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6057,8 +5925,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 240.03 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 101.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,12 +5935,144 @@
 			)
 		)
 		(pin "1"
-			(uuid "22feed5e-41a3-4775-8101-216353b3b62d")
+			(uuid "8d1ab25e-c7b7-4b3b-8b9d-e0cf26d788d7")
 		)
 		(instances
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "#PWR099")
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 203.2 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea7c4113-b7b2-4325-abe2-9f3eebe5c77f")
+		(property "Reference" "#PWR067"
+			(at 203.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDISO"
+			(at 203.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8fe0bf8-99fc-4a22-a931-c7b75e6e142f")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 161.29 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee49b768-8eee-41c4-a4ef-dfae59a04ce3")
+		(property "Reference" "#PWR060"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDISO"
+			(at 161.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec63263d-51b3-4b57-a12f-78220dc3ed60")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
