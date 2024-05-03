@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISO7640FMDWR
+D 6kVpk Low Power Quad Channels, 150Mbps Digital Isolators
+K
+F http://www.ti.com/lit/gpn/ISO7640FM
+$ENDCMP
+#
+#End Doc Library
