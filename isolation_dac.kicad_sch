@@ -3809,7 +3809,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 102.87) (xy 101.6 102.87)
+			(xy 101.6 102.87) (xy 102.87 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3996,6 +3996,16 @@
 			(type default)
 		)
 		(uuid "5458ddf7-7e79-481e-aca1-bdab60513093")
+	)
+	(wire
+		(pts
+			(xy 101.6 99.06) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57142d88-f7bf-424d-8193-98e1c893ea6e")
 	)
 	(wire
 		(pts
@@ -4309,6 +4319,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 107.95) (xy 102.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de2c114-86ea-46b9-8a7c-b349ba469512")
+	)
+	(wire
+		(pts
 			(xy 269.24 27.94) (xy 269.24 26.67)
 		)
 		(stroke
@@ -4597,16 +4617,6 @@
 		)
 		(uuid "aac01ddf-405f-4c39-8617-7a201b5f6ba2")
 	)
-	(wire
-		(pts
-			(xy 99.06 107.95) (xy 102.87 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae23ce35-d001-4732-9a94-ad8c71d6e4f4")
-	)
 	(polyline
 		(pts
 			(xy 12.7 76.2) (xy 74.295 76.2)
@@ -4666,16 +4676,6 @@
 			(type default)
 		)
 		(uuid "b867233e-d05b-41cf-944a-d22155bfb2fe")
-	)
-	(wire
-		(pts
-			(xy 99.06 110.49) (xy 102.87 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8d5e3c6-4279-49f1-adcb-c8bf42feb865")
 	)
 	(wire
 		(pts
@@ -4776,6 +4776,16 @@
 			(type default)
 		)
 		(uuid "d3cd98d9-773c-4ec1-a9e2-5b865bed8f1a")
+	)
+	(wire
+		(pts
+			(xy 99.06 110.49) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a34420-28aa-47c7-8036-31f5267ce645")
 	)
 	(wire
 		(pts
@@ -5006,16 +5016,6 @@
 			(type default)
 		)
 		(uuid "e8502a4c-4eae-47b9-ac1a-63348b2bc5a6")
-	)
-	(wire
-		(pts
-			(xy 101.6 102.87) (xy 101.6 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea867fe8-a9e3-446b-a569-474cac1a288f")
 	)
 	(wire
 		(pts
@@ -5816,7 +5816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/527/tsw_th-2854687.pdf"
 			(at 205.74 104.14 0)
 			(effects
 				(font
@@ -5826,6 +5826,42 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Samtec"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "TSW-102-07-T-D"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Samtec/TSW-102-07-T-D?qs=FESYatJ8odLVnZ57cajWUg%3D%3D"
 			(at 205.74 104.14 0)
 			(effects
 				(font

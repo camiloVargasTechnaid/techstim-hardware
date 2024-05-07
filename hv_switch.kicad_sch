@@ -5455,7 +5455,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d17d7563-d247-42c5-9511-5febc6d9a1b7")
 		(property "Reference" "R8"
 			(at 147.32 118.618 90)
