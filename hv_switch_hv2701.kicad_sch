@@ -1781,6 +1781,12 @@
 		(uuid "64cef288-2a9d-48b4-89b7-82a826174217")
 	)
 	(junction
+		(at 142.24 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bcc2e67-f13f-42d5-853d-993886a9be8d")
+	)
+	(junction
 		(at 240.03 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1930,6 +1936,10 @@
 		(at 149.86 77.47)
 		(uuid "324e3828-30cb-45f0-8746-d1ffaa0d686f")
 	)
+	(no_connect
+		(at 24.13 60.96)
+		(uuid "d316c5be-9204-4d22-b59d-2c7fe1a401f8")
+	)
 	(wire
 		(pts
 			(xy 85.09 64.77) (xy 88.9 64.77)
@@ -1992,7 +2002,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 115.57) (xy 142.24 125.73)
+			(xy 142.24 109.22) (xy 142.24 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2359,6 +2369,16 @@
 			(type default)
 		)
 		(uuid "4540a09e-c924-4526-a95a-1af34acbbd9b")
+	)
+	(wire
+		(pts
+			(xy 20.32 60.96) (xy 24.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a469146-3b60-4d5c-909f-e487ec794100")
 	)
 	(wire
 		(pts
@@ -3332,6 +3352,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 115.57) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3efe8f-dde5-4659-95cc-4747db3e1c06")
+	)
+	(wire
+		(pts
 			(xy 139.7 115.57) (xy 139.7 119.38)
 		)
 		(stroke
@@ -3372,6 +3402,17 @@
 			(justify left bottom)
 		)
 		(uuid "1e9e4335-a8d0-4dcf-a91b-70993856dbe5")
+	)
+	(label "DOUT_SW2"
+		(at 142.24 119.38 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a33587f-abb5-422d-a614-23457e1c2ad7")
 	)
 	(label "CURRENT_INPUT"
 		(at 124.46 44.45 90)
@@ -3837,6 +3878,18 @@
 		)
 		(uuid "b9614dc5-1975-4bb3-b284-a604061a41b4")
 	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 20.32 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4b23542-cbc9-444a-b3df-ace4b8103119")
+	)
 	(hierarchical_label "CH3_A"
 		(shape output)
 		(at 250.19 81.28 0)
@@ -3860,18 +3913,6 @@
 			(justify right)
 		)
 		(uuid "c78bc721-f69b-4c6a-b6de-4e9d904a842d")
-	)
-	(hierarchical_label "DOUT"
-		(shape output)
-		(at 142.24 125.73 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e555611f-5025-4a44-b9a0-904f5e17239e")
 	)
 	(hierarchical_label "+5VISO"
 		(shape passive)
