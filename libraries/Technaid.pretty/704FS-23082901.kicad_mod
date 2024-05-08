@@ -1,0 +1,258 @@
+(footprint "704FS-23082901"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Safety Plug Dc 2.35mm Socket For Tens Ems Machines, https://www.cngoochain.com/product/safety-plug-dc-235mm-socket-for-tens-ems-machines.pdf")
+	(tags "barrel jack cui dc power tens fes ems")
+	(property "Reference" "REF**"
+		(at 0 -3.3 0)
+		(layer "F.SilkS")
+		(uuid "1ac30d55-44d8-4e0b-abb1-1b9ebc5b7c50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "704FS-23082901"
+		(at 0 13.97 0)
+		(layer "F.Fab")
+		(uuid "0c025df4-bab9-46f8-898f-eaf882f65265")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "704FS-23082901"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc9ea588-a0a1-41fa-a7c8-5ea4e3ee5abd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08916a2f-d896-415f-b633-db485ffde0d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31866993-f6f9-41c7-8e11-66ae41611d79")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.86 -1.11)
+		(end 2.86 -1.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfd5618c-054a-410d-ad8e-6d468841d4f0")
+	)
+	(fp_line
+		(start -2.86 13.21)
+		(end -2.86 -1.11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2de73b3-18dd-480a-bede-faaab801ab9e")
+	)
+	(fp_line
+		(start -1 -2.3)
+		(end 1 -2.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c05a3d13-97cc-4dc9-8d70-3b5ae1a27004")
+	)
+	(fp_line
+		(start 2.86 -1.11)
+		(end 2.86 13.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "113ed966-5626-47f2-86d2-d4383208e1c7")
+	)
+	(fp_line
+		(start 2.86 13.21)
+		(end -2.86 13.21)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a05963c3-726b-4804-823c-48cc31542211")
+	)
+	(fp_line
+		(start -4.5 -2.5)
+		(end -4.5 14.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6938f723-3ae9-4141-aed7-3103b1c5a8db")
+	)
+	(fp_line
+		(start -4.5 14.6)
+		(end 4.5 14.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43a5c3c5-895b-497d-8df8-e95c2619041a")
+	)
+	(fp_line
+		(start 4.5 -2.5)
+		(end -4.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1a86e11-e301-499f-89ad-9cd32e0c3fdb")
+	)
+	(fp_line
+		(start 4.5 14.6)
+		(end 4.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea64ed2a-c244-40de-a900-9aae29aa7fae")
+	)
+	(fp_line
+		(start -2.75 -1)
+		(end 2.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8425d6a2-a304-48fa-bcc4-22416e1dcc34")
+	)
+	(fp_line
+		(start -2.75 13.1)
+		(end -2.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8199b780-320a-466d-a392-50e510ead1fa")
+	)
+	(fp_line
+		(start 2.75 -1)
+		(end 2.75 13.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "077bf46f-e274-4582-ab11-98d6a54d674d")
+	)
+	(fp_line
+		(start 2.75 13.1)
+		(end -2.75 13.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d707136-0ee4-4031-85aa-3aac5517be61")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.5 0)
+		(layer "F.Fab")
+		(uuid "60a5dff2-5140-42df-9acc-0c38178d208f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.6 4.05)
+		(size 1.4 1.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "bcab3e16-3959-42d7-8c06-9526cade9a85")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.6 4.05)
+		(size 1.4 1.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "431cd581-809c-4920-8e30-0bc30cb39822")
+	)
+	(pad "1" thru_hole rect
+		(at 0 11.8)
+		(size 1.5 1)
+		(drill 1.2 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9a35165-63cf-4fd6-b75e-f2e39adfec08")
+	)
+	(pad "2" thru_hole rect
+		(at -1.651 8.05)
+		(size 1.5 1)
+		(drill 1.2 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ce7b188f-e039-409d-baa9-78aaea83ae81")
+	)
+	(pad "3" thru_hole rect
+		(at 1.778 8.05)
+		(size 1.5 1)
+		(drill 1.2 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28075f04-e157-4876-8e06-75d2a58de736")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
