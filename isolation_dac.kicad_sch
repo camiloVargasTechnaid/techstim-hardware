@@ -5087,6 +5087,26 @@
 		)
 		(uuid "ffbc4e21-18d1-40e0-a794-6657f8e9dcd2")
 	)
+	(text "*"
+		(exclude_from_sim no)
+		(at 146.304 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1b461e39-a0ed-434a-9fa3-17ba7ae42e79")
+	)
+	(text "*"
+		(exclude_from_sim no)
+		(at 140.97 109.728 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "298b2c7f-0c55-4319-a920-e9db3c579053")
+	)
 	(text "No isolation input."
 		(exclude_from_sim no)
 		(at 22.098 44.45 0)
@@ -5106,6 +5126,17 @@
 			)
 		)
 		(uuid "92c15bc3-ada6-4541-af28-f3b50476712e")
+	)
+	(text "* R_p [1.5 - 8.11] kOhm.\nV_IL = 0.4 V (max)\nV_IH = 1.62 V (min)\nt_rise = 1000 ns\nC_p = 400 pF (standard)"
+		(exclude_from_sim no)
+		(at 153.162 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d6cd3e1-937c-4bb1-a96f-62f037b4c8f9")
 	)
 	(text "DAC CAPACITORS"
 		(exclude_from_sim no)
