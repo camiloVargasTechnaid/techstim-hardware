@@ -3016,7 +3016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thin Film Resistors - SMD CPF 0805 5R49 0.1% 25PPM"
+		(property "Description" "Thin Film Resistors - SMD RN 0805 6R04 0.1% 10PPM"
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -3034,7 +3034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFP" "CPF0805B5R49E1"
+		(property "MFP" "RN73C2A6R04BTDF"
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -3052,7 +3052,7 @@
 				(hide yes)
 			)
 		)
-		(property "S1PL" "https://www.mouser.dk/ProductDetail/TE-Connectivity-Holsworthy/CPF0805B5R49E1?qs=Im7Ui%252B8riBV4Yph%2FRlN8Tg%3D%3D"
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/RN73C2A6R04BTDF?qs=9ylKvqdyudnctbznyeQKNw%3D%3D"
 			(at 165.1 74.93 0)
 			(effects
 				(font
