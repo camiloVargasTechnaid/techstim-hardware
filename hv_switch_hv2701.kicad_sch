@@ -4078,6 +4078,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "595-ISO7640FMDWR"
+			(at 21.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "9d680039-5faa-462b-96cc-34feae4ab739")
 		)
@@ -4950,6 +4959,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "603-RC0805FR-070RL"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a42b0be4-3a0b-4ef8-aefa-5fb275d0aae9")
 		)
@@ -5066,6 +5084,51 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Microchip"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "HV2701FG-G"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "689-HV2701FG-G"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Microchip-Technology/HV2701FG-G?qs=9dFQwQorgSyz%2FfRsWmhqXg%3D%3D"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

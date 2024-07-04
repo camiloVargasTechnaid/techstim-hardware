@@ -4300,6 +4300,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f0744089-afe4-4e07-9f74-2489ca56c7af")
 		)
@@ -4398,6 +4407,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
 			(at 246.38 59.69 0)
 			(effects
 				(font
@@ -4578,6 +4596,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "91c6c390-365d-462f-952d-2bef243b649b")
 		)
@@ -4676,6 +4703,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
 			(at 246.38 90.17 0)
 			(effects
 				(font
@@ -4856,6 +4892,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9920e142-e605-4142-ad46-780694bec0ac")
 		)
@@ -5028,6 +5073,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "846c4acd-e0e6-49ae-adf6-c865f411dad9")
 		)
@@ -5144,6 +5198,51 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Analog Devices / Maxim Integrated"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "MAX14802CCM+ "
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "700-MAX14802CCM"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/MAX14802CCM%2b?qs=LHmEVA8xxfYA%252BG0fCGlljQ%3D%3D"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5391,6 +5490,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53b0a0a0-0f12-4af0-8f21-e14e8ac33b33")
 		)
@@ -5553,6 +5661,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/YAGEO/RC0805FR-070RL?qs=fRxXYNj8ftF6kXqh1XbZJQ%3D%3D"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "603-RC0805FR-070RL"
 			(at 144.78 120.65 0)
 			(effects
 				(font
@@ -5840,6 +5957,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO7640FMDWR?qs=bhx7MkwkKU8Q7CcjCV9mvg%3D%3D"
+			(at 21.59 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "595-ISO7640FMDWR"
 			(at 21.59 26.67 0)
 			(effects
 				(font
@@ -6186,6 +6312,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
 			(at 240.03 90.17 0)
 			(effects
 				(font

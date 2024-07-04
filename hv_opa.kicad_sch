@@ -1675,6 +1675,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "667-ERA-6AEB332V"
+			(at 177.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb5e6b5b-7efd-4cfd-bb11-bce6f76981ee")
 		)
@@ -1781,6 +1790,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "710-885012007094 "
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8dda3ec-7d2d-4b37-bb5e-b57c4982a08e")
 		)
@@ -1879,6 +1897,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.dk/ProductDetail/Panasonic/ERA-6AEB363V?qs=sGAEpiMZZMtlubZbdhIBIK8nywws5AKn1o7EGdPZ%2FuY%3D"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "667-ERA-6AEB363V"
 			(at 133.35 60.96 0)
 			(effects
 				(font
@@ -2080,7 +2107,7 @@
 				(hide yes)
 			)
 		)
-		(property "S1PN" ""
+		(property "S1PN" "Mouser"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -2090,6 +2117,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.co.uk/ProductDetail/Apex-Microtechnology/PA78DK?qs=TiOZkKH1s2QqTC8ILc9obg%3D%3D"
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "137-PA78DK"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -2264,6 +2300,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "71-TNPW080514K2BEEA"
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a14bc31-5f94-4b63-817f-7452b9623eee")
 		)
@@ -2360,6 +2405,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-Dale/TNPW080514K2BEEA?qs=NrXEK%2Fuukt5PsC1jRy0sxw%3D%3D"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "71-TNPW080514K2BEEA"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -2465,6 +2519,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.dk/ProductDetail/Wurth-Elektronik/885012007094?qs=sGAEpiMZZMsh%252B1woXyUXj88C7E9rEmUTF2BIos9tuFA%3D"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "710-885012007094 "
 			(at 127 82.55 0)
 			(effects
 				(font
@@ -2645,6 +2708,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "71-TNPW0805100KBEEA"
+			(at 172.72 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b222073-1ac0-4223-a0ab-e7b02f692d9c")
 		)
@@ -2740,6 +2812,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.dk/ProductDetail/Vishay-Dale/TNPW080536K1BETY?qs=mNg%252BuB3fXm9WM1dNE9VmcA%3D%3D"
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "71-TNPW080536K1BETY"
 			(at 148.59 60.96 0)
 			(effects
 				(font
@@ -2854,6 +2935,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "667-ERA-6AEB332V"
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d18fe100-9e02-450f-8cc2-0cf505f08580")
 		)
@@ -2957,6 +3047,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "71-PCAN1206E1000BST5"
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b207086-426c-4b63-aa68-99fc61bf9011")
 		)
@@ -2990,7 +3089,7 @@
 				)
 			)
 		)
-		(property "Value" "5.49"
+		(property "Value" "6.04"
 			(at 170.18 76.2 90)
 			(effects
 				(font
@@ -3053,6 +3152,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/RN73C2A6R04BTDF?qs=9ylKvqdyudnctbznyeQKNw%3D%3D"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "279-RN73C2A6R04BTDF"
 			(at 165.1 74.93 0)
 			(effects
 				(font
