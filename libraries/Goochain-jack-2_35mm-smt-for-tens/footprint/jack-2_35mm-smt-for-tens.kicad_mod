@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -243,16 +246,15 @@
 		(remove_unused_layers no)
 		(uuid "28075f04-e157-4876-8e06-75d2a58de736")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063AH_Horizontal_CircularHoles.wrl"
-		(hide yes)
+	(model "${KIPRJMOD}/3dmodels/Goochain-dc-plug-2_35mm/plug-2_35mm.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 2.75 -13 -3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 -180)
 		)
 	)
 )

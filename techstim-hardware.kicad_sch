@@ -3927,6 +3927,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "I2C2_SCL" bidirectional line)
 					(alternate "TIM2_CH3" bidirectional line)
 					(alternate "USART3_TX" bidirectional line)
@@ -3948,6 +3949,7 @@
 							)
 						)
 					)
+					(alternate "" input line)
 					(alternate "ADC1_EXTI11" bidirectional line)
 					(alternate "ADC2_EXTI11" bidirectional line)
 					(alternate "I2C2_SDA" bidirectional line)
@@ -5596,6 +5598,225 @@
 				)
 			)
 		)
+		(symbol "Technaid:Jack-2_35mm"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jack-2_35mm"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Technaid:jack-2_35mm-smt-for-tens"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.cngoochain.com/product/safety-plug-dc-235mm-socket-for-tens-ems-machines.pdf"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jack with an internal switch - SMT Type PCB Mount tens unit dc 2.35mm socket for messager machines"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" " jack connector goochain tens"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack* Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jack-2_35mm_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Jack-2_35mm_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Technaid:TECHNAID_LOGO"
 			(pin_names
 				(offset 1.016)
@@ -6934,7 +7155,7 @@
 		(uuid "0358324e-8b62-4c11-b0a6-08cae792563d")
 	)
 	(junction
-		(at 240.03 97.79)
+		(at 353.06 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05c4789e-fb1a-4849-af40-90d48e84fb58")
@@ -6968,6 +7189,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a0735af-0bab-4652-8c43-31e99bad21f0")
+	)
+	(junction
+		(at 360.68 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "219d3c2e-ecfa-452b-b7a0-b843af4aa35e")
 	)
 	(junction
 		(at 220.98 24.13)
@@ -7030,12 +7257,6 @@
 		(uuid "33acc073-9e21-4488-8885-2f58f6baad73")
 	)
 	(junction
-		(at 247.65 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "398c1a5f-b1bb-48a5-959c-d1a525a93168")
-	)
-	(junction
 		(at 95.25 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7048,6 +7269,12 @@
 		(uuid "3e07b259-c07a-4654-924b-2198c5d496ab")
 	)
 	(junction
+		(at 361.95 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f92e805-1e3e-4365-a3d4-257f96c67bac")
+	)
+	(junction
 		(at 87.63 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7058,6 +7285,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42ce2fdc-2593-4341-8494-9d89417c93e1")
+	)
+	(junction
+		(at 365.76 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46c738a5-bdd4-47d4-bef3-f51333e95da8")
 	)
 	(junction
 		(at 45.72 105.41)
@@ -7084,7 +7317,13 @@
 		(uuid "564a3636-0745-41a5-9c3e-d634536abe2a")
 	)
 	(junction
-		(at 236.22 91.44)
+		(at 388.62 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56e0acc4-53cd-45ca-92d6-d255f04a7cbd")
+	)
+	(junction
+		(at 349.25 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bda15c1-40b7-421c-9d92-247e16d603a5")
@@ -7108,7 +7347,13 @@
 		(uuid "614215c3-1f66-4f9d-b7dd-f791cd599ccc")
 	)
 	(junction
-		(at 234.95 88.9)
+		(at 389.89 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6374d544-6316-45e8-bad0-282ccee95355")
+	)
+	(junction
+		(at 347.98 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63ae7c7a-d70e-4631-9a7e-a8656f4b5e5f")
@@ -7118,6 +7363,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64c97ff5-1d14-4179-ac22-b1cc1d3e1869")
+	)
+	(junction
+		(at 367.03 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "683b8224-4bb7-47fa-96a1-c1e47aa81e63")
 	)
 	(junction
 		(at 233.68 64.77)
@@ -7198,7 +7449,7 @@
 		(uuid "9b26d4c6-161b-43f5-b25e-cf643d907277")
 	)
 	(junction
-		(at 242.57 101.6)
+		(at 355.6 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b446e06-783a-401f-976d-6d7c9f5b28e1")
@@ -7222,13 +7473,25 @@
 		(uuid "a0f6e8e6-3b3f-416a-90b1-13a1dcfb3042")
 	)
 	(junction
+		(at 360.68 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a42a3e11-8694-4008-a949-342f04d293cf")
+	)
+	(junction
 		(at 59.69 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aac8205f-3ec3-4863-b15c-363131b594ab")
 	)
 	(junction
-		(at 238.76 95.25)
+		(at 388.62 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae7a0e6c-27c5-4db8-b38a-e67099472c1c")
+	)
+	(junction
+		(at 351.79 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b02b1101-999a-414c-bf74-514540bf9db0")
@@ -7252,10 +7515,22 @@
 		(uuid "c4a00a83-97ce-4d98-b53a-3273981bdaf1")
 	)
 	(junction
+		(at 359.41 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cda1760c-8dc8-45ec-b30b-05f1b096ad3a")
+	)
+	(junction
 		(at 146.05 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0d34900-18fe-4dc4-9865-9a3f40adb56c")
+	)
+	(junction
+		(at 389.89 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d14f72ca-ef66-401e-a7fe-63eabdd1785a")
 	)
 	(junction
 		(at 134.62 39.37)
@@ -7306,7 +7581,7 @@
 		(uuid "f43d2059-d0a7-4549-aa19-49f317de8f6c")
 	)
 	(junction
-		(at 243.84 104.14)
+		(at 356.87 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9e522ac-9c34-4f44-85f8-6322b86de960")
@@ -7323,22 +7598,24 @@
 		(color 0 0 0 0)
 		(uuid "fdcad6c4-9a05-41c4-97ae-e99ae8e5d763")
 	)
-	(junction
-		(at 246.38 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff739fb9-e953-446e-8e8b-cff29191cada")
-	)
 	(no_connect
 		(at 44.45 95.25)
 		(uuid "0b2ef6bf-819c-4ab9-b4a3-355d073647f9")
+	)
+	(no_connect
+		(at 391.16 138.43)
+		(uuid "1a8c3737-4797-4502-8a1e-2f9a4e175b6b")
+	)
+	(no_connect
+		(at 391.16 181.61)
+		(uuid "2eb160e9-1b5b-40b8-8a73-8b2762c3fe27")
 	)
 	(no_connect
 		(at 44.45 92.71)
 		(uuid "487fcdf4-ff5b-42e5-8f21-ee0b6b6fd002")
 	)
 	(no_connect
-		(at 201.93 106.68)
+		(at 314.96 158.75)
 		(uuid "6a51642f-5ddb-4610-a7a9-07ffd39ab8bb")
 	)
 	(no_connect
@@ -7354,12 +7631,20 @@
 		(uuid "80045816-c57f-4387-ae22-e7041ab073cb")
 	)
 	(no_connect
-		(at 347.98 114.3)
+		(at 368.3 163.83)
+		(uuid "91c2eaed-28f8-43de-97d2-d40e8cc8c3aa")
+	)
+	(no_connect
+		(at 250.19 104.14)
 		(uuid "9964e3f4-f2fe-48af-89c2-7eed74252827")
 	)
 	(no_connect
-		(at 201.93 142.24)
+		(at 314.96 194.31)
 		(uuid "a755e518-bfb6-40a2-80cf-183caa503950")
+	)
+	(no_connect
+		(at 363.22 130.81)
+		(uuid "e06e0862-f433-483b-8fd5-890bcf126817")
 	)
 	(bus_entry
 		(at 157.48 127)
@@ -7380,7 +7665,7 @@
 		(uuid "1f75c802-408f-4cc8-bec4-34bb3b2c48d3")
 	)
 	(bus_entry
-		(at 327.66 101.6)
+		(at 229.87 91.44)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -7389,7 +7674,7 @@
 		(uuid "21ec257d-8799-4c42-9b96-fdb02508f7a6")
 	)
 	(bus_entry
-		(at 327.66 111.76)
+		(at 229.87 101.6)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -7398,7 +7683,7 @@
 		(uuid "2598bc35-f6b8-4e06-a2eb-f8a5ec587deb")
 	)
 	(bus_entry
-		(at 327.66 104.14)
+		(at 229.87 93.98)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -7434,7 +7719,7 @@
 		(uuid "7bd25e6c-1ba0-4448-9543-b854d8c9021b")
 	)
 	(bus_entry
-		(at 327.66 109.22)
+		(at 229.87 99.06)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -7443,13 +7728,23 @@
 		(uuid "d8aecb9e-4058-4de4-85ed-733232f1b1ca")
 	)
 	(bus_entry
-		(at 327.66 106.68)
+		(at 229.87 96.52)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e900b8f1-1620-4122-b70f-0d953d88220e")
+	)
+	(wire
+		(pts
+			(xy 365.76 153.67) (xy 368.3 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00565428-5a18-4f39-9951-98ae37188761")
 	)
 	(wire
 		(pts
@@ -7473,7 +7768,7 @@
 	)
 	(bus
 		(pts
-			(xy 327.66 111.76) (xy 327.66 109.22)
+			(xy 229.87 101.6) (xy 229.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7513,6 +7808,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 147.32) (xy 391.16 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04528231-43dd-4b06-a02d-4ece3d835285")
+	)
+	(wire
+		(pts
 			(xy 100.33 152.4) (xy 113.03 152.4)
 		)
 		(stroke
@@ -7520,6 +7825,16 @@
 			(type default)
 		)
 		(uuid "05c418f3-1bba-4f03-b70c-133a748066a0")
+	)
+	(wire
+		(pts
+			(xy 391.16 135.89) (xy 388.62 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c8cff8-620d-4248-9662-0144d2eff8b2")
 	)
 	(wire
 		(pts
@@ -7543,7 +7858,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 124.46) (xy 234.95 124.46)
+			(xy 345.44 176.53) (xy 347.98 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7593,7 +7908,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 99.06) (xy 205.74 99.06)
+			(xy 314.96 151.13) (xy 318.77 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7673,7 +7988,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 139.7) (xy 205.74 139.7)
+			(xy 314.96 191.77) (xy 318.77 191.77)
 		)
 		(stroke
 			(width 0)
@@ -7683,7 +7998,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 148.59) (xy 205.74 148.59)
+			(xy 314.96 200.66) (xy 318.77 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7803,7 +8118,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 97.79) (xy 262.89 97.79)
+			(xy 353.06 149.86) (xy 388.62 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7813,7 +8128,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 123.19) (xy 349.25 123.19)
+			(xy 261.62 113.03) (xy 251.46 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7903,7 +8218,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 101.6) (xy 205.74 101.6)
+			(xy 314.96 153.67) (xy 318.77 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7963,7 +8278,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 111.76) (xy 359.41 111.76)
+			(xy 254 101.6) (xy 261.62 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8013,6 +8328,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 149.86) (xy 391.16 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1feb9a84-15e2-41dd-b54d-c7b0dfe383dc")
+	)
+	(wire
+		(pts
 			(xy 233.68 63.5) (xy 233.68 64.77)
 		)
 		(stroke
@@ -8023,7 +8348,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 127) (xy 236.22 91.44)
+			(xy 349.25 179.07) (xy 349.25 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8033,7 +8358,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 143.51) (xy 246.38 143.51)
+			(xy 361.95 140.97) (xy 363.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216b24c9-f06f-4d79-821e-3f5c819b2824")
+	)
+	(wire
+		(pts
+			(xy 345.44 195.58) (xy 359.41 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8053,7 +8388,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 92.71) (xy 205.74 92.71)
+			(xy 314.96 144.78) (xy 318.77 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8063,7 +8398,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 88.9) (xy 250.19 88.9)
+			(xy 347.98 140.97) (xy 361.95 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8103,7 +8438,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 111.76) (xy 349.25 123.19)
+			(xy 251.46 101.6) (xy 251.46 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8113,7 +8448,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 96.52) (xy 349.25 96.52)
+			(xy 261.62 86.36) (xy 251.46 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8173,6 +8508,26 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 128.27) (xy 360.68 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa64860-d2c3-423f-a878-4342241931be")
+	)
+	(wire
+		(pts
+			(xy 363.22 128.27) (xy 360.68 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b608dc5-4482-4be0-b2be-7cd3f9a53bbb")
+	)
+	(wire
+		(pts
 			(xy 177.8 35.56) (xy 179.07 35.56)
 		)
 		(stroke
@@ -8223,6 +8578,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 179.07) (xy 389.89 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e03d72a-5622-4f40-80ab-d116d4419f76")
+	)
+	(wire
+		(pts
 			(xy 40.64 30.48) (xy 49.53 30.48)
 		)
 		(stroke
@@ -8263,7 +8628,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 130.81) (xy 238.76 95.25)
+			(xy 351.79 182.88) (xy 351.79 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8303,7 +8668,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 125.73) (xy 359.41 125.73)
+			(xy 252.73 115.57) (xy 261.62 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8343,7 +8708,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 105.41) (xy 359.41 105.41)
+			(xy 252.73 95.25) (xy 261.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8383,7 +8748,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 114.3) (xy 359.41 114.3)
+			(xy 252.73 104.14) (xy 261.62 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8400,6 +8765,16 @@
 			(type default)
 		)
 		(uuid "3a6c98eb-68a7-4598-b0e5-31c4a1cc8cdd")
+	)
+	(wire
+		(pts
+			(xy 368.3 166.37) (xy 365.76 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5e79f6-e8b2-4b05-8f24-76ca0d621a1b")
 	)
 	(wire
 		(pts
@@ -8423,7 +8798,17 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 107.95) (xy 359.41 107.95)
+			(xy 361.95 133.35) (xy 361.95 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e493a7e-2127-4b66-afd5-cf0d3b849320")
+	)
+	(wire
+		(pts
+			(xy 254 97.79) (xy 261.62 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8453,7 +8838,7 @@
 	)
 	(bus
 		(pts
-			(xy 327.66 104.14) (xy 327.66 101.6)
+			(xy 229.87 93.98) (xy 229.87 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8490,6 +8875,16 @@
 			(type default)
 		)
 		(uuid "44728679-7933-4a35-9efe-352e9cf7cf87")
+	)
+	(wire
+		(pts
+			(xy 389.89 172.72) (xy 391.16 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450f6aed-fc34-424e-b031-98040d5f03a7")
 	)
 	(wire
 		(pts
@@ -8543,7 +8938,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 95.25) (xy 238.76 95.25)
+			(xy 345.44 147.32) (xy 351.79 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8573,7 +8968,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 143.51) (xy 246.38 107.95)
+			(xy 359.41 195.58) (xy 359.41 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8610,6 +9005,16 @@
 			(type default)
 		)
 		(uuid "4d0712c5-2454-4b96-be43-5cb7e199bce4")
+	)
+	(wire
+		(pts
+			(xy 389.89 179.07) (xy 389.89 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d0ed5c8-1614-46fa-9783-4b61d5674f5b")
 	)
 	(wire
 		(pts
@@ -8703,7 +9108,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 102.87) (xy 359.41 102.87)
+			(xy 254 92.71) (xy 261.62 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8733,7 +9138,17 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 120.65) (xy 359.41 120.65)
+			(xy 388.62 135.89) (xy 388.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537ee36b-afe7-4774-ac0c-5e5178a72c61")
+	)
+	(wire
+		(pts
+			(xy 252.73 110.49) (xy 261.62 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8823,7 +9238,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 88.9) (xy 205.74 88.9)
+			(xy 314.96 140.97) (xy 318.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8843,7 +9258,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 101.6) (xy 242.57 101.6)
+			(xy 345.44 153.67) (xy 355.6 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8873,7 +9288,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 146.05) (xy 247.65 146.05)
+			(xy 345.44 198.12) (xy 360.68 198.12)
 		)
 		(stroke
 			(width 0)
@@ -8893,7 +9308,7 @@
 	)
 	(bus
 		(pts
-			(xy 327.66 109.22) (xy 327.66 106.68)
+			(xy 229.87 99.06) (xy 229.87 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8913,7 +9328,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 96.52) (xy 349.25 104.14)
+			(xy 251.46 86.36) (xy 251.46 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8973,7 +9388,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 88.9) (xy 234.95 88.9)
+			(xy 363.22 133.35) (xy 361.95 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f6462e5-c985-4cc2-bfe1-9504f9214a18")
+	)
+	(wire
+		(pts
+			(xy 345.44 140.97) (xy 347.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8983,7 +9408,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 109.22) (xy 350.52 109.22)
+			(xy 232.41 99.06) (xy 252.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9003,7 +9428,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 104.14) (xy 205.74 104.14)
+			(xy 314.96 156.21) (xy 318.77 156.21)
 		)
 		(stroke
 			(width 0)
@@ -9023,7 +9448,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 111.76) (xy 349.25 111.76)
+			(xy 232.41 101.6) (xy 251.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -9043,7 +9468,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 114.3) (xy 347.98 114.3)
+			(xy 232.41 104.14) (xy 250.19 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9053,7 +9478,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 95.25) (xy 262.89 95.25)
+			(xy 351.79 147.32) (xy 389.89 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9083,7 +9508,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 93.98) (xy 359.41 93.98)
+			(xy 254 83.82) (xy 261.62 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9123,7 +9548,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 97.79) (xy 240.03 97.79)
+			(xy 360.68 143.51) (xy 363.22 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb83d35-cb12-43b6-8fc3-743412150d3f")
+	)
+	(wire
+		(pts
+			(xy 345.44 149.86) (xy 353.06 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9133,7 +9568,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 130.81) (xy 238.76 130.81)
+			(xy 345.44 182.88) (xy 351.79 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9153,7 +9588,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 101.6) (xy 250.19 101.6)
+			(xy 355.6 153.67) (xy 365.76 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9183,7 +9618,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 110.49) (xy 262.89 110.49)
+			(xy 360.68 172.72) (xy 389.89 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9253,7 +9688,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 109.22) (xy 350.52 114.3)
+			(xy 252.73 99.06) (xy 252.73 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9273,7 +9708,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 139.7) (xy 243.84 139.7)
+			(xy 345.44 191.77) (xy 356.87 191.77)
 		)
 		(stroke
 			(width 0)
@@ -9313,7 +9748,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 146.05) (xy 247.65 110.49)
+			(xy 360.68 198.12) (xy 360.68 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9323,7 +9758,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 137.16) (xy 242.57 101.6)
+			(xy 355.6 189.23) (xy 355.6 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9353,7 +9788,7 @@
 	)
 	(bus
 		(pts
-			(xy 327.66 106.68) (xy 327.66 104.14)
+			(xy 229.87 96.52) (xy 229.87 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9400,6 +9835,16 @@
 			(type default)
 		)
 		(uuid "7d446289-d95c-4af7-9405-15ab7fd9e220")
+	)
+	(wire
+		(pts
+			(xy 367.03 161.29) (xy 367.03 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4f11aa-3c87-4c71-bd63-3032db1faa65")
 	)
 	(wire
 		(pts
@@ -9453,6 +9898,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 184.15) (xy 388.62 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8183a3c2-e992-46c8-bf32-75459b34d061")
+	)
+	(wire
+		(pts
 			(xy 109.22 106.68) (xy 113.03 106.68)
 		)
 		(stroke
@@ -9473,7 +9928,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 91.44) (xy 250.19 91.44)
+			(xy 349.25 143.51) (xy 360.68 143.51)
 		)
 		(stroke
 			(width 0)
@@ -9493,7 +9948,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 137.16) (xy 205.74 137.16)
+			(xy 314.96 189.23) (xy 318.77 189.23)
 		)
 		(stroke
 			(width 0)
@@ -9523,7 +9978,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 107.95) (xy 246.38 107.95)
+			(xy 345.44 160.02) (xy 359.41 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9540,6 +9995,16 @@
 			(type default)
 		)
 		(uuid "8a759bb4-73c3-482b-9a2e-eacb085f33ea")
+	)
+	(wire
+		(pts
+			(xy 367.03 156.21) (xy 368.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8caf8aad-3de0-4a2d-8e5e-edec5458c891")
 	)
 	(wire
 		(pts
@@ -9573,7 +10038,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 107.95) (xy 262.89 107.95)
+			(xy 359.41 170.18) (xy 388.62 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9583,7 +10048,7 @@
 	)
 	(bus
 		(pts
-			(xy 327.66 101.6) (xy 327.66 100.33)
+			(xy 229.87 91.44) (xy 229.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9643,7 +10108,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 113.03) (xy 205.74 113.03)
+			(xy 314.96 165.1) (xy 318.77 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9653,7 +10118,7 @@
 	)
 	(bus
 		(pts
-			(xy 326.39 100.33) (xy 327.66 100.33)
+			(xy 228.6 90.17) (xy 229.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -9733,7 +10198,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 146.05) (xy 205.74 146.05)
+			(xy 314.96 198.12) (xy 318.77 198.12)
 		)
 		(stroke
 			(width 0)
@@ -9743,7 +10208,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 106.68) (xy 350.52 106.68)
+			(xy 232.41 96.52) (xy 252.73 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9783,6 +10248,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 172.72) (xy 360.68 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec4e9a3-fc45-4a0c-89f3-ec1606ed0a62")
+	)
+	(wire
+		(pts
 			(xy 220.98 33.02) (xy 220.98 34.29)
 		)
 		(stroke
@@ -9793,7 +10268,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 127) (xy 236.22 127)
+			(xy 345.44 179.07) (xy 349.25 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9823,7 +10298,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 104.14) (xy 349.25 104.14)
+			(xy 232.41 93.98) (xy 251.46 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9833,7 +10308,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 137.16) (xy 242.57 137.16)
+			(xy 368.3 161.29) (xy 367.03 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1277558-429d-4f32-b713-f599790ad161")
+	)
+	(wire
+		(pts
+			(xy 345.44 189.23) (xy 355.6 189.23)
 		)
 		(stroke
 			(width 0)
@@ -9853,6 +10338,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 170.18) (xy 391.16 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ce5128-cf0a-49f4-bd47-d932a7fa679c")
+	)
+	(wire
+		(pts
 			(xy 130.81 25.4) (xy 134.62 25.4)
 		)
 		(stroke
@@ -9863,7 +10358,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 134.62) (xy 205.74 134.62)
+			(xy 314.96 186.69) (xy 318.77 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9893,7 +10388,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 110.49) (xy 205.74 110.49)
+			(xy 314.96 162.56) (xy 318.77 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9953,7 +10448,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 110.49) (xy 247.65 110.49)
+			(xy 345.44 162.56) (xy 360.68 162.56)
 		)
 		(stroke
 			(width 0)
@@ -10023,6 +10518,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 140.97) (xy 389.89 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35898c5-0b0d-436e-b175-360859b8f6dc")
+	)
+	(wire
+		(pts
 			(xy 29.21 129.54) (xy 29.21 132.08)
 		)
 		(stroke
@@ -10063,7 +10568,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 128.27) (xy 205.74 128.27)
+			(xy 314.96 180.34) (xy 318.77 180.34)
 		)
 		(stroke
 			(width 0)
@@ -10123,7 +10628,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 106.68) (xy 205.74 106.68)
+			(xy 314.96 158.75) (xy 318.77 158.75)
 		)
 		(stroke
 			(width 0)
@@ -10163,13 +10668,23 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 133.35) (xy 240.03 97.79)
+			(xy 353.06 185.42) (xy 353.06 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb7259cc-10ae-447b-83ce-880478d455a3")
+	)
+	(wire
+		(pts
+			(xy 359.41 170.18) (xy 359.41 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7def5e-15e8-4098-a11a-27e828abae7b")
 	)
 	(wire
 		(pts
@@ -10243,7 +10758,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 142.24) (xy 205.74 142.24)
+			(xy 314.96 194.31) (xy 318.77 194.31)
 		)
 		(stroke
 			(width 0)
@@ -10283,7 +10798,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 104.14) (xy 250.19 104.14)
+			(xy 356.87 156.21) (xy 367.03 156.21)
 		)
 		(stroke
 			(width 0)
@@ -10343,7 +10858,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 116.84) (xy 359.41 116.84)
+			(xy 254 106.68) (xy 261.62 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10523,7 +11038,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 124.46) (xy 205.74 124.46)
+			(xy 314.96 176.53) (xy 318.77 176.53)
 		)
 		(stroke
 			(width 0)
@@ -10603,7 +11118,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 139.7) (xy 243.84 104.14)
+			(xy 356.87 191.77) (xy 356.87 156.21)
 		)
 		(stroke
 			(width 0)
@@ -10643,7 +11158,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 105.41) (xy 350.52 106.68)
+			(xy 252.73 95.25) (xy 252.73 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10673,7 +11188,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 133.35) (xy 240.03 133.35)
+			(xy 345.44 185.42) (xy 353.06 185.42)
 		)
 		(stroke
 			(width 0)
@@ -10683,7 +11198,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 124.46) (xy 234.95 88.9)
+			(xy 347.98 176.53) (xy 347.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10733,6 +11248,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 166.37) (xy 365.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e490d8a2-081e-4996-a81f-239c36d896e2")
+	)
+	(wire
+		(pts
 			(xy 49.53 40.64) (xy 21.59 40.64)
 		)
 		(stroke
@@ -10750,6 +11275,16 @@
 			(type default)
 		)
 		(uuid "e8fe7868-a4d8-40df-a7c2-bb2ae2d249ba")
+	)
+	(wire
+		(pts
+			(xy 391.16 140.97) (xy 389.89 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9df664f-08fc-4ed5-afd1-bcf34025046d")
 	)
 	(wire
 		(pts
@@ -10803,7 +11338,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 99.06) (xy 359.41 99.06)
+			(xy 254 88.9) (xy 261.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10833,13 +11368,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 132.08) (xy 205.74 132.08)
+			(xy 314.96 184.15) (xy 318.77 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f011ec0e-ecd2-48c3-bdb6-18799bdbb660")
+	)
+	(wire
+		(pts
+			(xy 388.62 184.15) (xy 388.62 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0124b2a-d165-4808-8e63-c18ae4e6c178")
 	)
 	(wire
 		(pts
@@ -10853,7 +11398,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 96.52) (xy 205.74 96.52)
+			(xy 314.96 148.59) (xy 318.77 148.59)
 		)
 		(stroke
 			(width 0)
@@ -10883,7 +11428,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 104.14) (xy 243.84 104.14)
+			(xy 345.44 156.21) (xy 356.87 156.21)
 		)
 		(stroke
 			(width 0)
@@ -10913,7 +11458,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 91.44) (xy 236.22 91.44)
+			(xy 345.44 143.51) (xy 349.25 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11124,7 +11669,7 @@
 		(uuid "f9134269-d2c2-4b82-a103-65e5a1f4a9f5")
 	)
 	(label "VPP_HV"
-		(at 201.93 146.05 180)
+		(at 314.96 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11135,7 +11680,7 @@
 		(uuid "08eeec3d-cc10-4c02-b8b8-dcc15f502c1a")
 	)
 	(label "CURRENT_OUT"
-		(at 201.93 128.27 180)
+		(at 314.96 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11146,7 +11691,7 @@
 		(uuid "0f6fc63b-4f64-4126-a157-7f505f1f67eb")
 	)
 	(label "~{LE}_SW2"
-		(at 351.79 116.84 0)
+		(at 254 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11157,7 +11702,7 @@
 		(uuid "10042280-962c-4e2f-a1bd-f50c979e56a7")
 	)
 	(label "~{LE}_SW2"
-		(at 201.93 137.16 180)
+		(at 314.96 189.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11179,7 +11724,7 @@
 		(uuid "12eefb5e-9417-4e6d-82b0-c84a809248ec")
 	)
 	(label "CLR_SW"
-		(at 350.52 120.65 0)
+		(at 252.73 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11190,7 +11735,7 @@
 		(uuid "13058e1f-a7f6-4102-9518-46fb4cac25b4")
 	)
 	(label "+5VISO"
-		(at 201.93 124.46 180)
+		(at 314.96 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11234,7 +11779,7 @@
 		(uuid "298f596f-1343-4489-af81-77e397ebbfce")
 	)
 	(label "CLK_SW2"
-		(at 351.79 107.95 0)
+		(at 254 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11289,7 +11834,7 @@
 		(uuid "341bd3fa-f7fa-4679-b74f-ba8410063f59")
 	)
 	(label "CLK_SW"
-		(at 201.93 99.06 180)
+		(at 314.96 151.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11300,7 +11845,7 @@
 		(uuid "34f0b418-a36f-4a41-8233-94a21c702637")
 	)
 	(label "HV_SW2"
-		(at 336.55 109.22 0)
+		(at 238.76 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11311,7 +11856,7 @@
 		(uuid "3522fe2e-0393-4a44-83cc-80dc9686cbe7")
 	)
 	(label "VNN_HV"
-		(at 201.93 113.03 180)
+		(at 314.96 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11344,7 +11889,7 @@
 		(uuid "4bead497-1972-4d27-9f54-659b312fca69")
 	)
 	(label "HV_SW3"
-		(at 336.55 111.76 0)
+		(at 238.76 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11388,7 +11933,7 @@
 		(uuid "535a0b7e-58ab-4926-bc0b-58c5c2f0b022")
 	)
 	(label "HV_SW[0..4]"
-		(at 326.39 100.33 180)
+		(at 228.6 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11410,7 +11955,7 @@
 		(uuid "569de88b-8ace-46fb-afec-3b6353be570f")
 	)
 	(label "HV_SW4"
-		(at 336.55 114.3 0)
+		(at 238.76 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11443,7 +11988,7 @@
 		(uuid "5bf439d6-5f2a-47d5-945a-45ff890825bd")
 	)
 	(label "HV_SW0"
-		(at 336.55 104.14 0)
+		(at 238.76 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11454,7 +11999,7 @@
 		(uuid "666cd3db-2ed3-4812-9d59-6c6445f83f15")
 	)
 	(label "DIN_SW"
-		(at 351.79 93.98 0)
+		(at 254 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11476,7 +12021,7 @@
 		(uuid "709aa9dc-b736-4c1e-ba2c-a95d4fd61212")
 	)
 	(label "DIN_SW"
-		(at 201.93 96.52 180)
+		(at 314.96 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11509,7 +12054,7 @@
 		(uuid "747bdbe0-b125-4afd-b4a5-5c75eb4e9d1b")
 	)
 	(label "DIN_SW2"
-		(at 201.93 132.08 180)
+		(at 314.96 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11597,7 +12142,7 @@
 		(uuid "8cfc194e-6cc0-469e-8c16-5cd7827d1430")
 	)
 	(label "CLR_SW"
-		(at 201.93 104.14 180)
+		(at 314.96 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11608,7 +12153,7 @@
 		(uuid "93afb24b-2e32-456a-b8d0-0a8fa8bf34eb")
 	)
 	(label "CLK_SW2"
-		(at 201.93 134.62 180)
+		(at 314.96 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11630,7 +12175,7 @@
 		(uuid "9b52db1b-b968-4436-997e-a8333b763410")
 	)
 	(label "VPP_HV"
-		(at 201.93 110.49 180)
+		(at 314.96 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11652,7 +12197,7 @@
 		(uuid "a7593138-1af4-43f1-8e87-c4e65193f436")
 	)
 	(label "DIN_SW2"
-		(at 351.79 99.06 0)
+		(at 254 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11663,7 +12208,7 @@
 		(uuid "b23ab1fb-bae5-4851-8c98-e3504a7ceab1")
 	)
 	(label "HV_SW1"
-		(at 336.55 106.68 0)
+		(at 238.76 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11674,7 +12219,7 @@
 		(uuid "b447bc55-37c9-4583-8145-d791ae86fbd3")
 	)
 	(label "~{LE}_SW"
-		(at 351.79 111.76 0)
+		(at 254 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11740,7 +12285,7 @@
 		(uuid "ce6cb52c-b82f-411b-8e6f-10a1598ecfca")
 	)
 	(label "VNN_HV"
-		(at 201.93 148.59 180)
+		(at 314.96 200.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11751,7 +12296,7 @@
 		(uuid "cfe51e28-c3f5-47f6-b82f-93f1f6436f05")
 	)
 	(label "CLK_SW"
-		(at 351.79 102.87 0)
+		(at 254 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11773,7 +12318,7 @@
 		(uuid "dd379f24-ebd8-4070-8231-1044be882fcf")
 	)
 	(label "CLR_SW2"
-		(at 350.52 125.73 0)
+		(at 252.73 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11795,7 +12340,7 @@
 		(uuid "e630f2ab-45a0-41a9-9195-c14a5ebbe177")
 	)
 	(label "CLR_SW2"
-		(at 201.93 139.7 180)
+		(at 314.96 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11828,7 +12373,7 @@
 		(uuid "ea1e6353-c7c9-4bf6-8846-9dba6cf8c702")
 	)
 	(label "+5VISO"
-		(at 201.93 88.9 180)
+		(at 314.96 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11839,7 +12384,7 @@
 		(uuid "ece6d25b-d721-4705-9137-978a4132b31f")
 	)
 	(label "~{LE}_SW"
-		(at 201.93 101.6 180)
+		(at 314.96 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11872,7 +12417,7 @@
 		(uuid "f1c72a83-2c74-4f76-bd38-79d91625300a")
 	)
 	(label "CURRENT_OUT"
-		(at 201.93 92.71 180)
+		(at 314.96 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12330,6 +12875,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "833-MBR0520-TP"
+			(at 53.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c02bb0f-714e-46b6-9753-63da75255615")
 		)
@@ -12425,6 +12979,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Samtec/TD-103-T-A?qs=%252BZP6%2F%252BtExtCGerAa8W3wfw%3D%3D"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "200-TD103TA"
 			(at 184.15 33.02 0)
 			(effects
 				(font
@@ -12549,6 +13112,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "652-CRM0805FX1002ELF"
+			(at 171.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e0875aa-f751-41c1-a589-b64df8dada45")
 		)
@@ -12632,7 +13204,7 @@
 	)
 	(symbol
 		(lib_id "Connector:LEMO2")
-		(at 270.51 97.79 0)
+		(at 398.78 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12641,7 +13213,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c8e3dda-a165-4a12-b156-63c8a2f1cb88")
 		(property "Reference" "J8"
-			(at 275.59 95.2499 0)
+			(at 403.86 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12650,7 +13222,7 @@
 			)
 		)
 		(property "Value" "LEMO2"
-			(at 275.59 97.7899 0)
+			(at 403.86 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12659,7 +13231,7 @@
 			)
 		)
 		(property "Footprint" "LEMO-EXP.0S.302.HLNS:LEMO-EXP.0S.302.HLNS"
-			(at 270.51 96.52 0)
+			(at 398.78 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12668,7 +13240,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/232/EPL_0S_302_HLN-1844843.pdf"
-			(at 270.51 96.52 0)
+			(at 398.78 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12677,7 +13249,7 @@
 			)
 		)
 		(property "Description" "2-pin LEMO connector"
-			(at 270.51 97.79 0)
+			(at 398.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12686,7 +13258,7 @@
 			)
 		)
 		(property "MFN" "LEMO"
-			(at 270.51 97.79 0)
+			(at 398.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12695,7 +13267,7 @@
 			)
 		)
 		(property "MFP" "EPL.0S.302.HLN"
-			(at 270.51 97.79 0)
+			(at 398.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12704,7 +13276,7 @@
 			)
 		)
 		(property "S1PN" "Mouser"
-			(at 270.51 97.79 0)
+			(at 398.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,7 +13285,7 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/LEMO/EPL.0S.302.HLN?qs=cmND3fj6fzNjqsCdSup%252BQA%3D%3D"
-			(at 270.51 97.79 0)
+			(at 398.78 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,6 +13463,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "652-CRM0805FX1002ELF"
+			(at 199.39 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8e42a07-3312-4182-8ba0-2b60eb219154")
 		)
@@ -13010,7 +13591,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" ""
+		(property "MFN" "STMicroelectronics"
 			(at 101.6 29.21 0)
 			(effects
 				(font
@@ -13019,7 +13600,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFP" ""
+		(property "MFP" "LD39050PU33R"
 			(at 101.6 29.21 0)
 			(effects
 				(font
@@ -13028,7 +13609,7 @@
 				(hide yes)
 			)
 		)
-		(property "S1PN" ""
+		(property "S1PN" "Mouser"
 			(at 101.6 29.21 0)
 			(effects
 				(font
@@ -13037,7 +13618,16 @@
 				(hide yes)
 			)
 		)
-		(property "S1PL" ""
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/STMicroelectronics/LD39050PU33R?qs=5HwTSiuA5HCrgw9sKi%2FGcQ%3D%3D"
+			(at 101.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "511-LD39050PU33R"
 			(at 101.6 29.21 0)
 			(effects
 				(font
@@ -13699,6 +14289,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21A106KOQNNNE"
+			(at 69.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d23a38e-aed3-45c4-b8b7-b5b7851bd321")
 		)
@@ -13847,7 +14446,7 @@
 	)
 	(symbol
 		(lib_id "Connector:LEMO2")
-		(at 257.81 91.44 0)
+		(at 370.84 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13856,7 +14455,7 @@
 		(fields_autoplaced yes)
 		(uuid "366541a4-f898-4101-b7a0-8e668e463c49")
 		(property "Reference" "J5"
-			(at 262.89 88.8999 0)
+			(at 375.92 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13865,7 +14464,7 @@
 			)
 		)
 		(property "Value" "LEMO2"
-			(at 262.89 91.4399 0)
+			(at 375.92 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13874,7 +14473,7 @@
 			)
 		)
 		(property "Footprint" "LEMO-EXP.0S.302.HLNS:LEMO-EXP.0S.302.HLNS"
-			(at 257.81 90.17 0)
+			(at 370.84 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13883,7 +14482,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/232/EPL_0S_302_HLN-1844843.pdf"
-			(at 257.81 90.17 0)
+			(at 370.84 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13892,7 +14491,7 @@
 			)
 		)
 		(property "Description" "2-pin LEMO connector"
-			(at 257.81 91.44 0)
+			(at 370.84 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13901,7 +14500,7 @@
 			)
 		)
 		(property "MFN" "LEMO"
-			(at 257.81 91.44 0)
+			(at 370.84 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13910,7 +14509,7 @@
 			)
 		)
 		(property "MFP" "EPL.0S.302.HLN"
-			(at 257.81 91.44 0)
+			(at 370.84 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13919,7 +14518,7 @@
 			)
 		)
 		(property "S1PN" "Mouser"
-			(at 257.81 91.44 0)
+			(at 370.84 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13928,7 +14527,7 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/LEMO/EPL.0S.302.HLN?qs=cmND3fj6fzNjqsCdSup%252BQA%3D%3D"
-			(at 257.81 91.44 0)
+			(at 370.84 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14172,6 +14771,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "603-RC0805FR-070RL"
+			(at 66.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9d3b0ba5-40ac-4ea8-84b4-099ad60089ba")
 		)
@@ -14270,6 +14878,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Samsung-Electro-Mechanics/CL21B105KAFNNNF?qs=349EhDEZ59oekSEfcjpxvQ%3D%3D"
+			(at 87.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "187-CL21B105KAFNNNF"
 			(at 87.63 33.02 0)
 			(effects
 				(font
@@ -14551,6 +15168,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "863-ESD5Z5.0T5G "
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88d531bd-323b-4abb-a9cd-13c053d640b4")
 		)
@@ -14647,6 +15273,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/ECS/ECS-.327-9-34RR-TR?qs=Mv7BduZupUgiOrnSrxqb2w%3D%3D"
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "520-.327-9-34RRT"
 			(at 161.29 68.58 0)
 			(effects
 				(font
@@ -14827,6 +15462,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B104KBCNNND"
+			(at 233.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffb209a7-9674-4f8d-9e1e-d978f3b06e3a")
 		)
@@ -14924,6 +15568,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Samsung-Electro-Mechanics/CL21B104KBCNNND?qs=349EhDEZ59q4Uk9cKG1Kkg%3D%3D"
+			(at 243.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "187-CL21B104KBCNNND"
 			(at 243.84 29.21 0)
 			(effects
 				(font
@@ -15168,6 +15821,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B105KAFNNNF"
+			(at 114.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e577358-72c6-4888-a2e5-b0397a1f546c")
 		)
@@ -15266,6 +15928,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Samsung-Electro-Mechanics/CL21B104KBCNNND?qs=349EhDEZ59q4Uk9cKG1Kkg%3D%3D"
+			(at 41.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "187-CL21B104KBCNNND"
 			(at 41.91 135.89 0)
 			(effects
 				(font
@@ -15443,6 +16114,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "652-MH2029-300T "
+			(at 226.06 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00424b32-6e2c-4f42-a39e-1156b1477d6e")
 		)
@@ -15538,6 +16218,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Bourns/MH2029-300T?qs=HoCaDK9Nz5fV%2FM71qp74Dg%3D%3D"
+			(at 25.4 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "652-MH2029-300T "
 			(at 25.4 129.54 0)
 			(effects
 				(font
@@ -15719,6 +16408,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "511-STM32F103CBT6TR"
+			(at 128.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "fa6be064-77fb-4262-828d-9e8b3e803121")
 			(alternate "RCC_OSC_IN")
@@ -15887,7 +16585,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 364.49 105.41 0)
+		(at 266.7 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15896,7 +16594,7 @@
 		(fields_autoplaced yes)
 		(uuid "6679cc8a-6bf8-40ff-9cda-4b3eec99f79c")
 		(property "Reference" "J12"
-			(at 367.03 104.1399 0)
+			(at 269.24 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15905,7 +16603,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 367.03 106.6799 0)
+			(at 269.24 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15914,7 +16612,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 364.49 105.41 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15923,7 +16621,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_agilbrick_2_54mm_btb_header_g800.pdf"
-			(at 364.49 105.41 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15932,7 +16630,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 364.49 105.41 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15941,7 +16639,7 @@
 			)
 		)
 		(property "MFN" "Amphenol Commercial Products"
-			(at 364.49 105.41 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15950,7 +16648,7 @@
 			)
 		)
 		(property "MFP" "G800W305018EU"
-			(at 364.49 105.41 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15959,7 +16657,7 @@
 			)
 		)
 		(property "S1PN" "Mouser"
-			(at 364.49 105.41 0)
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15968,7 +16666,16 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Amphenol-Commercial-Products/G800W305018EU?qs=ouNmo%2FJCrDBGiooBHcFpjg%3D%3D"
-			(at 364.49 105.41 0)
+			(at 266.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "523-G800W305018EU"
+			(at 266.7 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16281,6 +16988,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "833-MBR0520-TP"
+			(at 53.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f65584eb-f580-4b54-81e0-d1501aa2fb5a")
 		)
@@ -16452,6 +17168,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B104KBCNNND"
+			(at 220.98 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b45c617f-1533-4a9e-a010-8513f6ecce75")
 		)
@@ -16548,6 +17273,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/YAGEO/CC0805JRNPO9BN160?qs=57cj7OiSijkqyrKaJZmrvw%3D%3D"
+			(at 184.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "603-CC805JRNPO9BN160"
 			(at 184.15 60.96 0)
 			(effects
 				(font
@@ -16662,6 +17396,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "74-TR3A105K035C3000"
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4407e1ea-5e31-4288-bc35-4b49d839ce6b")
 		)
@@ -16745,7 +17488,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 364.49 114.3 0)
+		(at 266.7 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16754,7 +17497,7 @@
 		(fields_autoplaced yes)
 		(uuid "828098cb-2e4e-4944-adb1-21e1adc255b6")
 		(property "Reference" "J13"
-			(at 367.03 113.0299 0)
+			(at 269.24 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16763,7 +17506,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 367.03 115.5699 0)
+			(at 269.24 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16772,7 +17515,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 364.49 114.3 0)
+			(at 266.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16781,7 +17524,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_agilbrick_2_54mm_btb_header_g800.pdf"
-			(at 364.49 114.3 0)
+			(at 266.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16790,7 +17533,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 364.49 114.3 0)
+			(at 266.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16799,7 +17542,7 @@
 			)
 		)
 		(property "MFN" "Amphenol Commercial Products"
-			(at 364.49 114.3 0)
+			(at 266.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16808,7 +17551,7 @@
 			)
 		)
 		(property "MFP" "G800W305018EU"
-			(at 364.49 114.3 0)
+			(at 266.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16817,7 +17560,7 @@
 			)
 		)
 		(property "S1PN" "Mouser"
-			(at 364.49 114.3 0)
+			(at 266.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16826,7 +17569,16 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Amphenol-Commercial-Products/G800W305018EU?qs=ouNmo%2FJCrDBGiooBHcFpjg%3D%3D"
-			(at 364.49 114.3 0)
+			(at 266.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "523-G800W305018EU"
+			(at 266.7 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16847,6 +17599,79 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Technaid:Jack-2_35mm")
+		(at 375.92 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84dd421d-e80c-4718-98ba-3b1f3ac8b14b")
+		(property "Reference" "J17"
+			(at 382.27 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jack-2_35mm"
+			(at 382.27 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Technaid:jack-2_35mm-smt-for-tens"
+			(at 374.65 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cngoochain.com/product/safety-plug-dc-235mm-socket-for-tens-ems-machines.pdf"
+			(at 374.65 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack with an internal switch - SMT Type PCB Mount tens unit dc 2.35mm socket for messager machines"
+			(at 375.92 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "146142e0-8426-4215-81ae-e4bcac4480f2")
+		)
+		(pin "3"
+			(uuid "928c5191-30ed-4ca6-9a0f-9db921ded9b2")
+		)
+		(pin "2"
+			(uuid "aea8ae40-64e3-4888-9173-a02b8c76e7e5")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -17257,6 +18082,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "660-RK73H2ATTDD4701F"
+			(at 95.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "befdd92b-3974-43a2-9f0c-7f0041edbd5c")
 		)
@@ -17354,6 +18188,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Samsung-Electro-Mechanics/CL21B104KBCNNND?qs=349EhDEZ59q4Uk9cKG1Kkg%3D%3D"
+			(at 232.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "187-CL21B104KBCNNND"
 			(at 232.41 29.21 0)
 			(effects
 				(font
@@ -17533,6 +18376,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B104KBCNNND"
+			(at 261.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00b2b50f-2c49-4f98-af16-4fd83f326c4a")
 		)
@@ -17631,6 +18483,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/KYOCERA-AVX/TAJA106K010RNJ?qs=OVpPYgiJXXXdYDvaS2xyLQ%3D%3D"
+			(at 255.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "581-TAJA106K010"
 			(at 255.27 29.21 0)
 			(effects
 				(font
@@ -17751,6 +18612,79 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341"
 					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Technaid:Jack-2_35mm")
+		(at 398.78 181.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90312dbc-f64f-4ac0-ac8e-2b22afffea5f")
+		(property "Reference" "J18"
+			(at 405.13 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jack-2_35mm"
+			(at 405.13 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Technaid:jack-2_35mm-smt-for-tens"
+			(at 397.51 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cngoochain.com/product/safety-plug-dc-235mm-socket-for-tens-ems-machines.pdf"
+			(at 397.51 180.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack with an internal switch - SMT Type PCB Mount tens unit dc 2.35mm socket for messager machines"
+			(at 398.78 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e058da1-d944-41f0-ab76-aba224799e54")
+		)
+		(pin "3"
+			(uuid "f15e4ffc-2903-4cb9-add5-ca18b032b4c7")
+		)
+		(pin "2"
+			(uuid "4ccca1a8-9ca4-44d3-8232-8450a2d8dd5d")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -17957,6 +18891,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/STMicroelectronics/ESDALC6V1W5?qs=C%2FEejvvdwQ4xcyFnfrFaDw%3D%3D"
+			(at 36.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "511-ESDALC6V1W5 "
 			(at 36.83 182.88 0)
 			(effects
 				(font
@@ -18342,6 +19285,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "833-MBR0520-TP"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d52d0093-46ee-4c31-adae-24d4d9e33747")
 		)
@@ -18549,6 +19501,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "863-ESD5Z3.3T5G "
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1574c21-f5ee-46f3-a835-4e9b070706bb")
 		)
@@ -18566,7 +19527,7 @@
 	)
 	(symbol
 		(lib_id "Connector:LEMO2")
-		(at 257.81 104.14 0)
+		(at 375.92 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18575,7 +19536,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5a33d93-1ba4-45fa-9ab6-b73e6307fea9")
 		(property "Reference" "J9"
-			(at 262.89 101.5999 0)
+			(at 381 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18584,7 +19545,7 @@
 			)
 		)
 		(property "Value" "LEMO2"
-			(at 262.89 104.1399 0)
+			(at 381 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18593,7 +19554,7 @@
 			)
 		)
 		(property "Footprint" "LEMO-EXP.0S.302.HLNS:LEMO-EXP.0S.302.HLNS"
-			(at 257.81 102.87 0)
+			(at 375.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18602,7 +19563,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/232/EPL_0S_302_HLN-1844843.pdf"
-			(at 257.81 102.87 0)
+			(at 375.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18611,7 +19572,7 @@
 			)
 		)
 		(property "Description" "2-pin LEMO connector"
-			(at 257.81 104.14 0)
+			(at 375.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18620,7 +19581,7 @@
 			)
 		)
 		(property "MFN" "LEMO"
-			(at 257.81 104.14 0)
+			(at 375.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18629,7 +19590,7 @@
 			)
 		)
 		(property "MFP" "EPL.0S.302.HLN"
-			(at 257.81 104.14 0)
+			(at 375.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18638,7 +19599,7 @@
 			)
 		)
 		(property "S1PN" "Mouser"
-			(at 257.81 104.14 0)
+			(at 375.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18647,7 +19608,7 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/LEMO/EPL.0S.302.HLN?qs=cmND3fj6fzNjqsCdSup%252BQA%3D%3D"
-			(at 257.81 104.14 0)
+			(at 375.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18853,6 +19814,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Micro-Commercial-Components-MCC/MBR0520-TP?qs=Oupk%2FUD005gN%2Fsy5ULAgCw%3D%3D"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "833-MBR0520-TP"
 			(at 53.34 40.64 0)
 			(effects
 				(font
@@ -19097,6 +20067,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "603-RE0805FRE071K5L"
+			(at 72.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73d7886d-4cfc-4923-a021-f3e7dcd763ad")
 		)
@@ -19114,7 +20093,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 364.49 123.19 0)
+		(at 266.7 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19123,7 +20102,7 @@
 		(fields_autoplaced yes)
 		(uuid "b189f29f-9718-464a-ae12-e1821a960086")
 		(property "Reference" "J14"
-			(at 367.03 121.9199 0)
+			(at 269.24 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19132,7 +20111,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 367.03 124.4599 0)
+			(at 269.24 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19141,7 +20120,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 364.49 123.19 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19150,7 +20129,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_agilbrick_2_54mm_btb_header_g800.pdf"
-			(at 364.49 123.19 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19159,7 +20138,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 364.49 123.19 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19168,7 +20147,7 @@
 			)
 		)
 		(property "MFN" "Amphenol Commercial Products"
-			(at 364.49 123.19 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19177,7 +20156,7 @@
 			)
 		)
 		(property "MFP" "G800W305018EU"
-			(at 364.49 123.19 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19186,7 +20165,7 @@
 			)
 		)
 		(property "S1PN" "Mouser"
-			(at 364.49 123.19 0)
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19195,7 +20174,16 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Amphenol-Commercial-Products/G800W305018EU?qs=ouNmo%2FJCrDBGiooBHcFpjg%3D%3D"
-			(at 364.49 123.19 0)
+			(at 266.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "523-G800W305018EU"
+			(at 266.7 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19377,6 +20365,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "179-TS046643BK260SMT"
+			(at 134.62 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "658a1eda-081e-4904-94b4-383dfc14cba2")
 		)
@@ -19387,6 +20384,79 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Technaid:Jack-2_35mm")
+		(at 370.84 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b59212a6-19f2-4462-84e2-83c6345dea70")
+		(property "Reference" "J15"
+			(at 377.19 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jack-2_35mm"
+			(at 377.19 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Technaid:jack-2_35mm-smt-for-tens"
+			(at 369.57 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cngoochain.com/product/safety-plug-dc-235mm-socket-for-tens-ems-machines.pdf"
+			(at 369.57 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack with an internal switch - SMT Type PCB Mount tens unit dc 2.35mm socket for messager machines"
+			(at 370.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff7f3d4e-e18c-452c-b281-44c687fe7774")
+		)
+		(pin "3"
+			(uuid "6cc46074-dbf9-411e-8af6-8123c6bc1339")
+		)
+		(pin "2"
+			(uuid "2af5d12c-b99e-44be-be2e-23a4f490360f")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -19539,6 +20609,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Bourns/MH2029-300T?qs=HoCaDK9Nz5fV%2FM71qp74Dg%3D%3D"
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "652-MH2029-300T "
 			(at 267.97 129.54 0)
 			(effects
 				(font
@@ -19848,6 +20927,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "660-RK73H2ATTDD4701F"
+			(at 100.33 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04fd6ec3-cf82-4620-abc7-434da023d0f6")
 		)
@@ -20016,6 +21104,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "520-80-18-33-JGN-TR"
+			(at 191.77 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c78a2369-0886-46e1-bdb5-2f242c435a41")
 		)
@@ -20039,7 +21136,7 @@
 	)
 	(symbol
 		(lib_id "Connector:LEMO2")
-		(at 270.51 110.49 0)
+		(at 398.78 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20048,7 +21145,7 @@
 		(fields_autoplaced yes)
 		(uuid "c713b774-866b-4e53-9aeb-8db9efcacd0f")
 		(property "Reference" "J10"
-			(at 275.59 107.9499 0)
+			(at 403.86 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20057,7 +21154,7 @@
 			)
 		)
 		(property "Value" "LEMO2"
-			(at 275.59 110.4899 0)
+			(at 403.86 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20066,7 +21163,7 @@
 			)
 		)
 		(property "Footprint" "LEMO-EXP.0S.302.HLNS:LEMO-EXP.0S.302.HLNS"
-			(at 270.51 109.22 0)
+			(at 398.78 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20075,7 +21172,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/232/EPL_0S_302_HLN-1844843.pdf"
-			(at 270.51 109.22 0)
+			(at 398.78 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20084,7 +21181,7 @@
 			)
 		)
 		(property "Description" "2-pin LEMO connector"
-			(at 270.51 110.49 0)
+			(at 398.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20093,7 +21190,7 @@
 			)
 		)
 		(property "MFN" "LEMO"
-			(at 270.51 110.49 0)
+			(at 398.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20102,7 +21199,7 @@
 			)
 		)
 		(property "MFP" "EPL.0S.302.HLN"
-			(at 270.51 110.49 0)
+			(at 398.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20111,7 +21208,7 @@
 			)
 		)
 		(property "S1PN" "Mouser"
-			(at 270.51 110.49 0)
+			(at 398.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20120,7 +21217,7 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/LEMO/EPL.0S.302.HLN?qs=cmND3fj6fzNjqsCdSup%252BQA%3D%3D"
-			(at 270.51 110.49 0)
+			(at 398.78 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20138,6 +21235,79 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Technaid:Jack-2_35mm")
+		(at 398.78 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c823db7c-f26b-49c0-8406-e20ee3dfc4e0")
+		(property "Reference" "J16"
+			(at 405.13 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jack-2_35mm"
+			(at 405.13 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Technaid:jack-2_35mm-smt-for-tens"
+			(at 397.51 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cngoochain.com/product/safety-plug-dc-235mm-socket-for-tens-ems-machines.pdf"
+			(at 397.51 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack with an internal switch - SMT Type PCB Mount tens unit dc 2.35mm socket for messager machines"
+			(at 398.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b313ec6c-8740-4493-a2be-d2412846bbbd")
+		)
+		(pin "3"
+			(uuid "8cd96e07-68b2-4fe4-b83f-be23402f1640")
+		)
+		(pin "2"
+			(uuid "efa15801-3faa-4748-870a-c23872e69691")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -20290,6 +21460,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/YAGEO/CC0805JRNPO9BN160?qs=57cj7OiSijkqyrKaJZmrvw%3D%3D"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "603-CC805JRNPO9BN160"
 			(at 184.15 73.66 0)
 			(effects
 				(font
@@ -20602,6 +21781,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "603-RC0805FR-070RL"
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f7100fd8-0aa4-4b8f-ac35-5d04a6a3fd86")
 		)
@@ -20710,6 +21898,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "511-USBLC6-2P6"
+			(at 53.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "f82cfd65-d48b-4130-aaf4-ac7014f7195e")
 		)
@@ -20781,7 +21978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "603-CC805JRNPO9BN160"
 			(at 152.4 74.93 0)
 			(effects
 				(font
@@ -20818,6 +22015,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/YAGEO/CC0805DRNPO9BN6R0?qs=BNrmOlmR3%2FruALBec4fcLg%3D%3D"
+			(at 152.4 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "603-CC805DRNPO9BN6R0"
 			(at 152.4 74.93 0)
 			(effects
 				(font
@@ -21084,7 +22290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "603-CC805JRNPO9BN160"
 			(at 152.4 62.23 0)
 			(effects
 				(font
@@ -21121,6 +22327,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/YAGEO/CC0805DRNPO9BN6R0?qs=BNrmOlmR3%2FruALBec4fcLg%3D%3D"
+			(at 152.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "603-CC805DRNPO9BN6R0"
 			(at 152.4 62.23 0)
 			(effects
 				(font
@@ -21227,6 +22442,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Vishay-Sprague/TR3A105K035C3000?qs=sGAEpiMZZMsh%252B1woXyUXj0%2FXsqoPjg0vYKZSu1RMbe4%3D"
+			(at 48.26 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "74-TR3A105K035C3000"
 			(at 48.26 135.89 0)
 			(effects
 				(font
@@ -21800,6 +23024,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B104KBCNNND"
+			(at 149.86 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5055361-50fa-433e-a782-7530fd117c97")
 		)
@@ -21949,7 +23182,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 364.49 96.52 0)
+		(at 266.7 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21958,7 +23191,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8bcd8ff-0040-48b0-ac56-ee5f5e944ab0")
 		(property "Reference" "J11"
-			(at 367.03 95.2499 0)
+			(at 269.24 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21967,7 +23200,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 367.03 97.7899 0)
+			(at 269.24 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21976,7 +23209,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 364.49 96.52 0)
+			(at 266.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21985,7 +23218,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_agilbrick_2_54mm_btb_header_g800.pdf"
-			(at 364.49 96.52 0)
+			(at 266.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21994,7 +23227,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 364.49 96.52 0)
+			(at 266.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22003,7 +23236,7 @@
 			)
 		)
 		(property "MFN" "Amphenol Commercial Products"
-			(at 364.49 96.52 0)
+			(at 266.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22012,7 +23245,7 @@
 			)
 		)
 		(property "MFP" "G800W305018EU"
-			(at 364.49 96.52 0)
+			(at 266.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22021,7 +23254,7 @@
 			)
 		)
 		(property "S1PN" "Mouser"
-			(at 364.49 96.52 0)
+			(at 266.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22030,7 +23263,16 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Amphenol-Commercial-Products/G800W305018EU?qs=ouNmo%2FJCrDBGiooBHcFpjg%3D%3D"
-			(at 364.49 96.52 0)
+			(at 266.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "523-G800W305018EU"
+			(at 266.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22137,6 +23379,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/GCT/USB4105-GF-A?qs=KUoIvG%2F9IlY%2FMLlBMpStpA%3D%3D"
+			(at 29.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "640-USB4105-GF-A"
 			(at 29.21 102.87 0)
 			(effects
 				(font
@@ -22350,7 +23601,7 @@
 		)
 	)
 	(sheet
-		(at 205.74 121.92)
+		(at 318.77 173.99)
 		(size 26.67 29.21)
 		(fields_autoplaced yes)
 		(stroke
@@ -22362,7 +23613,7 @@
 		)
 		(uuid "2a4d6a24-4920-45e5-b1da-9a132104b07c")
 		(property "Sheetname" "HV_Switch_HV2701"
-			(at 205.74 121.2084 0)
+			(at 318.77 173.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22371,7 +23622,7 @@
 			)
 		)
 		(property "Sheetfile" "hv_switch_hv2701.kicad_sch"
-			(at 205.74 151.7146 0)
+			(at 318.77 203.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22380,7 +23631,7 @@
 			)
 		)
 		(pin "DIN" input
-			(at 205.74 132.08 180)
+			(at 318.77 184.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22390,7 +23641,7 @@
 			(uuid "56d8a763-c92c-45ab-bbee-1bedeb8033cb")
 		)
 		(pin "CLK" input
-			(at 205.74 134.62 180)
+			(at 318.77 186.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22400,7 +23651,7 @@
 			(uuid "32bdda6b-1644-4fdd-b32d-7675485581f0")
 		)
 		(pin "LE" input
-			(at 205.74 137.16 180)
+			(at 318.77 189.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22410,7 +23661,7 @@
 			(uuid "3ddb7207-1862-477d-a932-dcc50f349f0e")
 		)
 		(pin "CLR" input
-			(at 205.74 139.7 180)
+			(at 318.77 191.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22420,7 +23671,7 @@
 			(uuid "10b058fc-d90a-4211-8bdb-3ce898540449")
 		)
 		(pin "CH0_A" output
-			(at 232.41 124.46 0)
+			(at 345.44 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22430,7 +23681,7 @@
 			(uuid "87989843-37f7-45de-8b49-f38e71243c0e")
 		)
 		(pin "CH0_B" output
-			(at 232.41 127 0)
+			(at 345.44 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22440,7 +23691,7 @@
 			(uuid "a245c0a8-d842-4d16-9592-97d9123a235a")
 		)
 		(pin "CURRENT_INPUT" input
-			(at 205.74 128.27 180)
+			(at 318.77 180.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22450,7 +23701,7 @@
 			(uuid "f13c7751-c4f4-4f74-8d5c-5e46827ef100")
 		)
 		(pin "CH1_A" output
-			(at 232.41 130.81 0)
+			(at 345.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22460,7 +23711,7 @@
 			(uuid "81a5e94a-550f-495a-b39b-db56b466cd78")
 		)
 		(pin "CH1_B" output
-			(at 232.41 133.35 0)
+			(at 345.44 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22470,7 +23721,7 @@
 			(uuid "632a5836-b0f6-4cc5-9fbe-8dc6194f6817")
 		)
 		(pin "CH2_A" output
-			(at 232.41 137.16 0)
+			(at 345.44 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22480,7 +23731,7 @@
 			(uuid "f611c22f-d14a-456c-bbc1-8c9dcf2f9906")
 		)
 		(pin "CH2_B" output
-			(at 232.41 139.7 0)
+			(at 345.44 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22490,7 +23741,7 @@
 			(uuid "784f5928-ac31-44c9-bf9c-6f0622a4f3e1")
 		)
 		(pin "CH3_A" output
-			(at 232.41 143.51 0)
+			(at 345.44 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22500,7 +23751,7 @@
 			(uuid "5bcb3cae-b7df-4236-9eec-3173c9b92023")
 		)
 		(pin "CH3_B" output
-			(at 232.41 146.05 0)
+			(at 345.44 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22510,7 +23761,7 @@
 			(uuid "421a0f47-1aae-47dd-a14f-39f69963a9c1")
 		)
 		(pin "DOUT" output
-			(at 205.74 142.24 180)
+			(at 318.77 194.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22520,7 +23771,7 @@
 			(uuid "1d53c598-2a4c-41ff-8af9-0256cd6170dd")
 		)
 		(pin "HV_PP" passive
-			(at 205.74 146.05 180)
+			(at 318.77 198.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22530,7 +23781,7 @@
 			(uuid "523ca211-af84-4d11-9c0a-5479f82e8b41")
 		)
 		(pin "HV_NN" passive
-			(at 205.74 148.59 180)
+			(at 318.77 200.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22540,7 +23791,7 @@
 			(uuid "15ed2fc9-f553-40ac-b8ac-c422907e382d")
 		)
 		(pin "+5VISO" passive
-			(at 205.74 124.46 180)
+			(at 318.77 176.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22636,7 +23887,7 @@
 		)
 	)
 	(sheet
-		(at 205.74 86.36)
+		(at 318.77 138.43)
 		(size 26.67 29.21)
 		(fields_autoplaced yes)
 		(stroke
@@ -22648,7 +23899,7 @@
 		)
 		(uuid "be4170ac-acbe-4846-95eb-caba09b1a46c")
 		(property "Sheetname" "HV_Switch"
-			(at 205.74 85.6484 0)
+			(at 318.77 137.7184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22657,7 +23908,7 @@
 			)
 		)
 		(property "Sheetfile" "hv_switch.kicad_sch"
-			(at 205.74 116.1546 0)
+			(at 318.77 168.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22666,7 +23917,7 @@
 			)
 		)
 		(pin "DIN" input
-			(at 205.74 96.52 180)
+			(at 318.77 148.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22676,7 +23927,7 @@
 			(uuid "25b2f16d-e8e1-456d-952d-cd5bea77d053")
 		)
 		(pin "CLK" input
-			(at 205.74 99.06 180)
+			(at 318.77 151.13 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22686,7 +23937,7 @@
 			(uuid "67feb381-662b-4263-95f7-dd45c92ad457")
 		)
 		(pin "~{LE}" input
-			(at 205.74 101.6 180)
+			(at 318.77 153.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22696,7 +23947,7 @@
 			(uuid "f2a1e911-8ada-4b17-879f-795f69d71cc6")
 		)
 		(pin "CLR" input
-			(at 205.74 104.14 180)
+			(at 318.77 156.21 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22706,7 +23957,7 @@
 			(uuid "90fc2c00-4d16-4316-b859-007579fbdb1d")
 		)
 		(pin "CH0_A" output
-			(at 232.41 88.9 0)
+			(at 345.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22716,7 +23967,7 @@
 			(uuid "e74a0ff3-4e99-4573-aa25-965a0dbfa693")
 		)
 		(pin "CH0_B" output
-			(at 232.41 91.44 0)
+			(at 345.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22726,7 +23977,7 @@
 			(uuid "f878819c-d090-40eb-a6bf-4e65998b7595")
 		)
 		(pin "CURRENT_INPUT" input
-			(at 205.74 92.71 180)
+			(at 318.77 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22736,7 +23987,7 @@
 			(uuid "e5f197de-32e6-4356-9626-d5591b62f417")
 		)
 		(pin "CH1_A" output
-			(at 232.41 95.25 0)
+			(at 345.44 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22746,7 +23997,7 @@
 			(uuid "b504ead5-e772-443a-9fd2-c838d6203785")
 		)
 		(pin "CH1_B" output
-			(at 232.41 97.79 0)
+			(at 345.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22756,7 +24007,7 @@
 			(uuid "7e554df0-347d-4ef9-933b-81b1e7a82a05")
 		)
 		(pin "CH2_A" output
-			(at 232.41 101.6 0)
+			(at 345.44 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22766,7 +24017,7 @@
 			(uuid "caeaeac8-b54f-4f82-9e4f-308bfcb48067")
 		)
 		(pin "CH2_B" output
-			(at 232.41 104.14 0)
+			(at 345.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22776,7 +24027,7 @@
 			(uuid "4521e5f4-57ea-496c-85cc-8718dc128dc8")
 		)
 		(pin "CH3_A" output
-			(at 232.41 107.95 0)
+			(at 345.44 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22786,7 +24037,7 @@
 			(uuid "6b8ee42f-3269-43e5-992c-a94c59d51fea")
 		)
 		(pin "CH3_B" output
-			(at 232.41 110.49 0)
+			(at 345.44 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22796,7 +24047,7 @@
 			(uuid "ec46b8ff-9f35-4728-9d3b-c6e3786277e7")
 		)
 		(pin "DOUT" output
-			(at 205.74 106.68 180)
+			(at 318.77 158.75 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22806,7 +24057,7 @@
 			(uuid "7afa3241-6552-464c-b8b3-59e33ea9c82f")
 		)
 		(pin "HV_PP" passive
-			(at 205.74 110.49 180)
+			(at 318.77 162.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22816,7 +24067,7 @@
 			(uuid "f12a2c2b-94e9-47e8-b602-a63c27adfd32")
 		)
 		(pin "HV_NN" passive
-			(at 205.74 113.03 180)
+			(at 318.77 165.1 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22826,7 +24077,7 @@
 			(uuid "e41e41b4-a006-4cdd-bddb-25b2de42288f")
 		)
 		(pin "+5VISO" passive
-			(at 205.74 88.9 180)
+			(at 318.77 140.97 180)
 			(effects
 				(font
 					(size 1.27 1.27)

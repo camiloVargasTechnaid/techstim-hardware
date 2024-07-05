@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "jack-2_35mm")(type "KiCad")(uri "${KIPRJMOD}/libraries/Symbols/jack-2_35mm.kicad_sym")(options "")(descr ""))
 )

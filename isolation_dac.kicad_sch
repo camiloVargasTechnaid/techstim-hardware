@@ -5493,6 +5493,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B104KBCNNND"
+			(at 194.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "742a4d0e-918a-42ba-98f0-bffd393246b3")
 		)
@@ -5731,6 +5740,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B104KBCNNND"
+			(at 236.22 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d3ab9b8-dc3a-4ae6-b6cd-d4787be32f8c")
 		)
@@ -5901,6 +5919,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "200-TSW10207TD"
+			(at 205.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "3baf313a-4237-4b38-8152-301c63dd1427")
 		)
@@ -6047,6 +6074,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Texas-Instruments/REF35409QDBVR?qs=Jm2GQyTW%2FbgBTryVLY6N3g%3D%3D"
+			(at 204.47 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "595-REF35409QDBVR "
 			(at 204.47 24.13 0)
 			(effects
 				(font
@@ -6289,6 +6325,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "595-ISO7640FMDWR"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "e33faf54-3350-4b44-a69a-32a08850c240")
 		)
@@ -6429,6 +6474,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Samsung-Electro-Mechanics/CL21B104KBCNNND?qs=349EhDEZ59q4Uk9cKG1Kkg%3D%3D"
+			(at 57.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "187-CL21B104KBCNNND"
 			(at 57.15 62.23 0)
 			(effects
 				(font
@@ -6609,6 +6663,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21A106KOQNNNE"
+			(at 127 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59693ae8-5771-4b9e-bb6e-93d70cbb20f3")
 		)
@@ -6706,6 +6769,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Samsung-Electro-Mechanics/CL21B105KAFNNNF?qs=349EhDEZ59oekSEfcjpxvQ%3D%3D"
+			(at 166.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "187-CL21B105KAFNNNF"
 			(at 166.37 31.75 0)
 			(effects
 				(font
@@ -6820,6 +6892,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B105KAFNNNF"
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9f3bff5-662d-47a4-a605-07a8cf4658e1")
 		)
@@ -6862,7 +6943,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 97.4852 35.56 0)
 			(effects
 				(font
@@ -6880,7 +6961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tantalum capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 963-MSAST21GAB7475KT RPLCMT PN 25V 4.7uF X7R 0805 10%"
 			(at 96.52 31.75 0)
 			(effects
 				(font
@@ -6889,7 +6970,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Vishay / Sprague"
+		(property "MFN" "TAIYO YUDEN"
 			(at 96.52 31.75 0)
 			(effects
 				(font
@@ -6898,7 +6979,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFP" "TMCP1A475KTR2F"
+		(property "MFP" "TMK212AB7475KG-T"
 			(at 96.52 31.75 0)
 			(effects
 				(font
@@ -6916,7 +6997,16 @@
 				(hide yes)
 			)
 		)
-		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-Sprague/TMCP1A475KTR2F?qs=sGAEpiMZZMsh%252B1woXyUXj%252Bp8lp8l%2FqQ2YF2RyGUCz%252Bw%3D"
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/TAIYO-YUDEN/TMK212AB7475KG-T?qs=PzICbMaShUdHixFETnrKZg%3D%3D"
+			(at 96.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "963-TMK212AB7475KG-T"
 			(at 96.52 31.75 0)
 			(effects
 				(font
@@ -7031,6 +7121,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "523-G800W305018EU"
+			(at 25.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "72d731cb-be47-4f5c-b555-d56305721c43")
 		)
@@ -7129,6 +7228,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Micro-Commercial-Components-MCC/MBR0520-TP?qs=Oupk%2FUD005gN%2Fsy5ULAgCw%3D%3D"
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "833-MBR0520-TP"
 			(at 78.74 26.67 0)
 			(effects
 				(font
@@ -7440,6 +7548,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "755-TCSP1D106M8R"
+			(at 242.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "132bbeec-bf86-4715-9efe-5c0bf47c0962")
 		)
@@ -7537,6 +7654,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Texas-Instruments/TPS76350DBVRG4?qs=6zVL%252ByCp0mrPdp%252BxKum%252BJw%3D%3D"
+			(at 116.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "595-TPS76350DBVRG4"
 			(at 116.84 29.21 0)
 			(effects
 				(font
@@ -7682,6 +7808,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/Wurth-Elektronik/760390015?qs=wElim4iM2pjOQCmk%252B8YbFA%3D%3D"
+			(at 57.15 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "710-760390015"
 			(at 57.15 24.13 0)
 			(effects
 				(font
@@ -8062,6 +8197,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Micro-Commercial-Components-MCC/MBR0520-TP?qs=Oupk%2FUD005gN%2Fsy5ULAgCw%3D%3D"
+			(at 78.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "833-MBR0520-TP"
 			(at 78.74 31.75 0)
 			(effects
 				(font
@@ -8471,6 +8615,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "595-SN6501DBVR"
+			(at 29.21 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c6276ce7-7005-458e-a5ec-01814a4348bc")
 		)
@@ -8718,6 +8871,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B105KAFNNNF"
+			(at 187.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8aee1360-6b59-458c-bf0e-25942d7b462e")
 		)
@@ -8955,6 +9117,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B104KBCNNND"
+			(at 269.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1ecb050-b4cc-455e-8cc7-03a49a59f863")
 		)
@@ -9051,6 +9222,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/YAGEO/RC0805FR-103K32L?qs=sGAEpiMZZMtlubZbdhIBIEgN9MQql2m6N2YndjpN%2F%2FE%3D"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "603-RC0805FR-103K32L"
 			(at 147.32 105.41 0)
 			(effects
 				(font
@@ -9179,6 +9359,51 @@
 				(hide yes)
 			)
 		)
+		(property "MFN" "Texas Instruments"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "DAC63204RTERQ1 "
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "595-DAC63204RTERQ1 "
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Texas-Instruments/DAC63204RTERQ1?qs=1Kr7Jg1SGW%252BQ6md2D37Eqg%3D%3D "
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "4bfed5ea-dc68-4b35-87ea-51f39b7cd67b")
 		)
@@ -9284,7 +9509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Tantalum capacitor"
+		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 1.5uF X7R 0805 10%"
 			(at 63.5 62.23 0)
 			(effects
 				(font
@@ -9293,7 +9518,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFN" "Vishay / Sprague"
+		(property "MFN" "KEMET"
 			(at 63.5 62.23 0)
 			(effects
 				(font
@@ -9302,7 +9527,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFP" "TMCP1D155KTR2F"
+		(property "MFP" "C0805C155K4RECTU"
 			(at 63.5 62.23 0)
 			(effects
 				(font
@@ -9320,7 +9545,16 @@
 				(hide yes)
 			)
 		)
-		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-Sprague/TMCP1D155KTR2F?qs=WatphXlIDnxVJ0AVWfEJug%3D%3D"
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/KEMET/C0805C155K4RECTU?qs=55YtniHzbhAVkW7Ru9jmSA%3D%3D"
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "80-C0805C155K4RECTU"
 			(at 63.5 62.23 0)
 			(effects
 				(font
@@ -9425,6 +9659,15 @@
 			)
 		)
 		(property "S1PL" "https://eu.mouser.com/ProductDetail/YAGEO/RC0805FR-103K32L?qs=sGAEpiMZZMtlubZbdhIBIEgN9MQql2m6N2YndjpN%2F%2FE%3D"
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "603-RC0805FR-103K32L"
 			(at 142.24 105.41 0)
 			(effects
 				(font
@@ -9604,6 +9847,15 @@
 				(hide yes)
 			)
 		)
+		(property "S1P#" "187-CL21B104KBCNNND"
+			(at 102.87 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95b2f0fa-a49d-45ab-a2b5-c6686118d722")
 		)
@@ -9767,6 +10019,15 @@
 			)
 		)
 		(property "S1PL" "https://www.mouser.es/ProductDetail/Samsung-Electro-Mechanics/CL21B104KBCNNND?qs=349EhDEZ59q4Uk9cKG1Kkg%3D%3D"
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "187-CL21B104KBCNNND"
 			(at 153.67 31.75 0)
 			(effects
 				(font
