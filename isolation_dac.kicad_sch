@@ -6185,213 +6185,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Technaid:ISO7640FMDWR")
-		(at 100.33 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4597d3fd-e86f-4b51-99c9-1c199636935b")
-		(property "Reference" "IC2"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ISO7640FMDWR"
-			(at 116.84 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
-			(at 129.54 197.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/ISO7640FM"
-			(at 129.54 297.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "6kVpk Low Power Quad Channels, 150Mbps Digital Isolators"
-			(at 100.33 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.65"
-			(at 129.54 497.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-ISO7640FMDWR"
-			(at 129.54 597.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO7640FMDWR?qs=bhx7MkwkKU8Q7CcjCV9mvg%3D%3D"
-			(at 129.54 697.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 129.54 797.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ISO7640FMDWR"
-			(at 129.54 897.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MFN" "Texas Instruments"
-			(at 100.33 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" "ISO7640FMDWR"
-			(at 100.33 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PN" "Mouser"
-			(at 100.33 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PL" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO7640FMDWR?qs=bhx7MkwkKU8Q7CcjCV9mvg%3D%3D"
-			(at 100.33 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1P#" "595-ISO7640FMDWR"
-			(at 100.33 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "16"
-			(uuid "e33faf54-3350-4b44-a69a-32a08850c240")
-		)
-		(pin "10"
-			(uuid "1102174f-65b4-4e0f-ad8c-31bdece29d81")
-		)
-		(pin "15"
-			(uuid "e7e63c8c-9f02-4d6d-8c35-5876a732a609")
-		)
-		(pin "13"
-			(uuid "6c59be15-8b10-43aa-a382-8d2369faf4c5")
-		)
-		(pin "6"
-			(uuid "1408a208-f362-489f-8b30-524960e38f72")
-		)
-		(pin "14"
-			(uuid "d892ed57-de22-462a-a6d1-3f6a9006b0ea")
-		)
-		(pin "2"
-			(uuid "09d2bbc7-5138-4531-b47b-10aaec24ce5d")
-		)
-		(pin "12"
-			(uuid "e27a54fe-c340-4512-98ec-cce1148c4e24")
-		)
-		(pin "4"
-			(uuid "32ff6108-447a-47dd-aac1-8922da93e2c3")
-		)
-		(pin "7"
-			(uuid "834cbc0a-0871-4d61-aca6-8d470f95e40e")
-		)
-		(pin "11"
-			(uuid "833c94ba-0c76-42c0-93d7-f8fe34c0674f")
-		)
-		(pin "9"
-			(uuid "a3634abe-1b70-409b-8590-05685a92c758")
-		)
-		(pin "3"
-			(uuid "8c2708ed-d0fa-4505-b3a2-11104c4b633f")
-		)
-		(pin "8"
-			(uuid "95d0634b-9d62-4988-a53c-fde55e67dab3")
-		)
-		(pin "1"
-			(uuid "0feffdd4-63e1-473c-acc6-977f2b5d7cbd")
-		)
-		(pin "5"
-			(uuid "2866c93b-70ca-45a9-8ce4-d027405e272f")
-		)
-		(instances
-			(project "techstim-hardware"
-				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/6f1c9813-6d9b-43a0-a5d7-e66a0b6ca03e"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 57.15 62.23 0)
 		(mirror x)
@@ -9866,6 +9659,212 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/6f1c9813-6d9b-43a0-a5d7-e66a0b6ca03e"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Technaid:ISO7640FMDWR")
+		(at 100.33 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1d4bb67-1c68-4f7d-a3ce-b211cf3797ba")
+		(property "Reference" "IC9"
+			(at 114.554 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ISO7641FMDWR"
+			(at 114.554 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(at 105.156 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/ISO7640FM"
+			(at 129.54 297.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "6kVpk Low Power Quad Channels, 150Mbps Digital Isolators"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.65"
+			(at 129.54 497.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ISO7640FMDWR"
+			(at 129.54 597.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO7640FMDWR?qs=bhx7MkwkKU8Q7CcjCV9mvg%3D%3D"
+			(at 129.54 697.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 129.54 797.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ISO7640FMDWR"
+			(at 129.54 897.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Texas Instruments"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "ISO7640FMDWR"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ISO7640FMDWR?qs=bhx7MkwkKU8Q7CcjCV9mvg%3D%3D"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "595-ISO7640FMDWR"
+			(at 100.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "7a82e952-35b1-4248-91be-9eaf58496793")
+		)
+		(pin "4"
+			(uuid "ccf8d0f2-0da8-40e0-9526-ae5e2305e82e")
+		)
+		(pin "8"
+			(uuid "3c90a120-3e7d-4f76-8e38-aed44488a37b")
+		)
+		(pin "6"
+			(uuid "5c435300-621f-4483-b670-74134dee2fe5")
+		)
+		(pin "7"
+			(uuid "b907dab3-bb18-4dac-9818-275103e5fd05")
+		)
+		(pin "2"
+			(uuid "ee92fa7b-c44e-4cf2-a9bf-b1f54bf1e442")
+		)
+		(pin "1"
+			(uuid "0daf1663-439f-4227-9e60-c9fd40672307")
+		)
+		(pin "13"
+			(uuid "b9007111-3168-4d91-9807-5ca24d301bca")
+		)
+		(pin "15"
+			(uuid "42187327-457c-4aec-9313-d222cd6ced9f")
+		)
+		(pin "16"
+			(uuid "a474a803-3ddb-4fe8-961e-fe21b6e514ae")
+		)
+		(pin "14"
+			(uuid "44d6d37c-1dab-48a6-a633-6e9b14c84c3b")
+		)
+		(pin "11"
+			(uuid "b08a8fa0-b750-49a1-903f-5702d593c9f6")
+		)
+		(pin "12"
+			(uuid "7c0181f8-d043-4b01-8816-fe14f9808c04")
+		)
+		(pin "3"
+			(uuid "fb766830-eb65-43ec-864b-d7e481c6b7c7")
+		)
+		(pin "5"
+			(uuid "32b98af1-d850-4b79-b262-7c9d328bef1e")
+		)
+		(pin "9"
+			(uuid "1d7b2795-f746-44e0-aecf-a45acdce3934")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/6f1c9813-6d9b-43a0-a5d7-e66a0b6ca03e"
+					(reference "IC9")
 					(unit 1)
 				)
 			)

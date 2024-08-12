@@ -3520,8 +3520,30 @@
 		)
 		(uuid "c27d5aad-40b4-4529-a6f9-f938e1090dd0")
 	)
-	(label "CURRENT_INPUT"
-		(at 165.1 85.09 0)
+	(label "CH1_B"
+		(at 233.68 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04b87716-c7a0-48a5-8ea7-230c80f007ea")
+	)
+	(label "CH3_B"
+		(at 233.68 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0635a6ad-264f-42ac-b3f9-526273749538")
+	)
+	(label "CH3_B"
+		(at 165.1 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3529,7 +3551,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "17053db6-ae09-4ee7-a734-26e8b109d37d")
+		(uuid "06e5c73f-9871-4f10-9576-e71138d37b82")
+	)
+	(label "CURRENT_INPUT"
+		(at 124.46 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fb22006-047e-4f6a-972f-7dae56dedfd6")
+	)
+	(label "CH0_A"
+		(at 99.06 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12d98bbc-e0e7-49d2-9965-2bbf05f10a8e")
 	)
 	(label "~{LE}_SW"
 		(at 55.88 36.83 0)
@@ -3553,17 +3597,6 @@
 		)
 		(uuid "2ab6fb0a-4487-40f7-8429-7075e12a6716")
 	)
-	(label "CURRENT_INPUT"
-		(at 124.46 44.45 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ad14302-2bf3-4be4-8f78-bfda2649fbd4")
-	)
 	(label "CLR_SW"
 		(at 55.88 39.37 0)
 		(fields_autoplaced yes)
@@ -3574,17 +3607,6 @@
 			(justify left bottom)
 		)
 		(uuid "2f0449a5-8043-4b3c-8900-149e0a0ba863")
-	)
-	(label "CH0_A"
-		(at 99.06 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2f990846-8120-4539-adf6-35f63d9ec5c6")
 	)
 	(label "DIN_SW"
 		(at 55.88 31.75 0)
@@ -3597,8 +3619,8 @@
 		)
 		(uuid "355c8cc3-a43e-4bba-b995-55f9ddebff0c")
 	)
-	(label "CH0_B"
-		(at 99.06 92.71 180)
+	(label "CH2_A"
+		(at 196.85 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3606,7 +3628,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3b9b416e-6784-4091-85dc-b3fb67eb01f0")
+		(uuid "36201cfd-bb70-42e9-8ada-4bd0a75295ec")
 	)
 	(label "CLK_SW"
 		(at 55.88 34.29 0)
@@ -3641,83 +3663,6 @@
 		)
 		(uuid "487925df-73bd-441a-a2e7-d3fe9c507288")
 	)
-	(label "CH3_B"
-		(at 165.1 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "496c3de0-23c5-461b-a761-af593cd5aad6")
-	)
-	(label "CH3_A"
-		(at 233.68 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "50037c1e-1db9-4228-85e6-0c362ab2d5ca")
-	)
-	(label "CURRENT_INPUT"
-		(at 99.06 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "53c29d9b-37f1-4f59-8b27-a7e3399c5523")
-	)
-	(label "CH3_A"
-		(at 165.1 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56d4f9b6-02b4-4402-b0b6-e05e5189d38f")
-	)
-	(label "CH2_B"
-		(at 196.85 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6bba3a8c-8518-4317-862f-04b373fb7306")
-	)
-	(label "CH1_A"
-		(at 233.68 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "879a4cb8-3e13-4111-8578-73ea711f853b")
-	)
-	(label "CH2_A"
-		(at 196.85 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "954a32af-3886-4a96-b0cd-8f06d37d1665")
-	)
 	(label "CH2_B"
 		(at 144.78 44.45 90)
 		(fields_autoplaced yes)
@@ -3727,7 +3672,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a04fcd4b-b136-487c-89ff-f1b3b527e44f")
+		(uuid "48de4cda-ccf5-4481-b2e1-98a6ea8c4611")
 	)
 	(label "CH1_B"
 		(at 121.92 44.45 90)
@@ -3738,10 +3683,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b02ce262-eb80-4e4c-ad03-ed8bef13ffda")
+		(uuid "59f3288b-a115-490c-b386-697f8bd0712b")
 	)
-	(label "CH1_B"
-		(at 233.68 48.26 180)
+	(label "CURRENT_INPUT"
+		(at 99.06 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3749,7 +3694,51 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b1fbdab8-b334-43ce-af37-5475c97d166c")
+		(uuid "67b3be73-4b4c-44e7-a71c-198c3d2e1608")
+	)
+	(label "CH1_A"
+		(at 99.06 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87ceb638-837c-4b66-a994-a83bb5f4ebf8")
+	)
+	(label "CURRENT_INPUT"
+		(at 165.1 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99919575-04ce-4b18-979f-61e4f2b6ce6c")
+	)
+	(label "CH2_A"
+		(at 134.62 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa87c5d4-52d6-4549-b9db-42fcfb1fb1ce")
+	)
+	(label "CURRENT_INPUT"
+		(at 88.9 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae8386db-32a4-4e43-925d-0f0bb91ff89f")
 	)
 	(label "CLR_SW"
 		(at 139.7 119.38 270)
@@ -3762,6 +3751,17 @@
 		)
 		(uuid "b3fcb2a6-49a6-4173-afc6-275a29a0dd22")
 	)
+	(label "CH1_A"
+		(at 233.68 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4f7c6b9-f171-4e71-8d11-a3cd6ab5f5f2")
+	)
 	(label "~{LE}_SW"
 		(at 137.16 119.38 270)
 		(fields_autoplaced yes)
@@ -3773,8 +3773,8 @@
 		)
 		(uuid "c0b31843-861f-474d-90a8-f23082a0202e")
 	)
-	(label "CH3_B"
-		(at 233.68 78.74 180)
+	(label "CH3_A"
+		(at 233.68 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3782,10 +3782,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c6ea3fbd-cee1-4df3-8e8d-1b5b9eadd516")
+		(uuid "c0c92fe3-533d-4bb5-91c4-fdafdbf02781")
 	)
-	(label "CH1_A"
-		(at 99.06 80.01 180)
+	(label "CH2_B"
+		(at 196.85 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3793,18 +3793,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c9264a86-c536-4df5-bae4-4e45b2cec155")
+		(uuid "c47a4886-c26a-4e97-a063-10618a21dadb")
 	)
-	(label "CH0_A"
-		(at 196.85 50.8 180)
+	(label "CH3_A"
+		(at 165.1 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "f1324f50-378e-41d3-a843-b40d45db95ac")
+		(uuid "c528c002-ba28-43be-a7ed-61cc55f68d4f")
 	)
 	(label "CH0_B"
 		(at 196.85 48.26 180)
@@ -3815,29 +3815,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f2fe2dd5-f351-4255-8011-cbb370fe333b")
+		(uuid "c5c217e9-243b-4ad7-8528-8dc21f66bdd4")
 	)
-	(label "CH2_A"
-		(at 134.62 44.45 90)
+	(label "CH0_B"
+		(at 99.06 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "fab3626e-8f82-45d0-ae6f-f0cee800a8c0")
+		(uuid "ccce901f-ddcf-488a-9afb-e1609f4a642d")
 	)
-	(label "CURRENT_INPUT"
-		(at 88.9 64.77 0)
+	(label "CH0_A"
+		(at 196.85 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "fbced80d-07b9-474c-9016-19f07eec8a59")
+		(uuid "e9af7629-61b9-4018-ac45-23a1f006e910")
 	)
 	(global_label "+3.3V"
 		(shape output)
@@ -3861,6 +3861,30 @@
 			)
 		)
 	)
+	(hierarchical_label "CH1_A"
+		(shape output)
+		(at 250.19 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00fade4b-b8b5-494e-a4e9-0b15f09b1659")
+	)
+	(hierarchical_label "CH3_A"
+		(shape output)
+		(at 250.19 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11705af3-4732-482d-8fb3-c01e365fa300")
+	)
 	(hierarchical_label "CURRENT_INPUT"
 		(shape input)
 		(at 85.09 64.77 180)
@@ -3871,7 +3895,7 @@
 			)
 			(justify right)
 		)
-		(uuid "0bf73c6a-9e0c-4d2e-9d3f-4257bd284c55")
+		(uuid "26b0894a-853a-459c-a63a-a75b9b86813f")
 	)
 	(hierarchical_label "CLK"
 		(shape input)
@@ -3885,6 +3909,18 @@
 		)
 		(uuid "35559173-92e5-40df-a351-5b1f1fbc73e4")
 	)
+	(hierarchical_label "CH2_A"
+		(shape output)
+		(at 213.36 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "357675b4-1584-4171-944b-4227b707ba42")
+	)
 	(hierarchical_label "DOUT"
 		(shape output)
 		(at 20.32 59.69 180)
@@ -3897,21 +3933,9 @@
 		)
 		(uuid "37eb8b48-2248-4803-9568-7842b66f573e")
 	)
-	(hierarchical_label "HV_PP"
-		(shape passive)
-		(at 121.92 125.73 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38bb6266-bab7-4fd6-9446-f535bf03ad5d")
-	)
-	(hierarchical_label "CH2_B"
+	(hierarchical_label "CH0_B"
 		(shape output)
-		(at 213.36 78.74 0)
+		(at 213.36 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3919,11 +3943,11 @@
 			)
 			(justify left)
 		)
-		(uuid "4537e072-4ea4-493a-8e96-6586ae2bc55b")
+		(uuid "44be8e87-da03-469f-9cdd-44daf14fc28f")
 	)
-	(hierarchical_label "CH0_A"
+	(hierarchical_label "CH3_B"
 		(shape output)
-		(at 213.36 50.8 0)
+		(at 250.19 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3931,7 +3955,7 @@
 			)
 			(justify left)
 		)
-		(uuid "6d2a9a0b-4177-4a7f-9f36-0ff75dc3466e")
+		(uuid "55ddd44d-23a6-46a7-bfee-ebc2df894487")
 	)
 	(hierarchical_label "CLR"
 		(shape input)
@@ -3969,9 +3993,9 @@
 		)
 		(uuid "74b72a88-b5f5-4aa1-ad24-fac2ed9e0b76")
 	)
-	(hierarchical_label "CH3_B"
+	(hierarchical_label "CH0_A"
 		(shape output)
-		(at 250.19 78.74 0)
+		(at 213.36 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3979,11 +4003,11 @@
 			)
 			(justify left)
 		)
-		(uuid "7e6a2240-6462-4f91-8fa5-e0798ed676de")
+		(uuid "985acbf3-fe7a-4da9-90d3-89cc69047082")
 	)
-	(hierarchical_label "+5VISO"
+	(hierarchical_label "HV_PP"
 		(shape passive)
-		(at 129.54 125.73 270)
+		(at 121.92 125.73 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3991,11 +4015,11 @@
 			)
 			(justify right)
 		)
-		(uuid "847c064c-9483-4532-9374-9372a698493b")
+		(uuid "b7532e62-657d-407a-9430-e13e47872136")
 	)
-	(hierarchical_label "CH2_A"
+	(hierarchical_label "CH2_B"
 		(shape output)
-		(at 213.36 81.28 0)
+		(at 213.36 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4003,43 +4027,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9289d948-c2bd-4b46-a93f-f641842bca68")
-	)
-	(hierarchical_label "CH1_A"
-		(shape output)
-		(at 250.19 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a3519eb7-9fba-4380-81dd-98e133145140")
-	)
-	(hierarchical_label "CH1_B"
-		(shape output)
-		(at 250.19 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b36356cd-fa78-4a0b-84fa-4a99e593562f")
-	)
-	(hierarchical_label "CH3_A"
-		(shape output)
-		(at 250.19 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6bd8448-9dc9-490d-bd65-48d87783e476")
+		(uuid "c068fe1f-9bbc-4571-8b7a-e733739976f9")
 	)
 	(hierarchical_label "HV_NN"
 		(shape passive)
@@ -4051,7 +4039,19 @@
 			)
 			(justify right)
 		)
-		(uuid "c78bc721-f69b-4c6a-b6de-4e9d904a842d")
+		(uuid "c3c29b9d-d1cb-438c-8622-005709386bef")
+	)
+	(hierarchical_label "CH1_B"
+		(shape output)
+		(at 250.19 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc05da47-60ca-46c8-ac1c-9fd88f2a6000")
 	)
 	(hierarchical_label "~{LE}"
 		(shape input)
@@ -4065,17 +4065,17 @@
 		)
 		(uuid "dd3db051-0a24-4e2e-8819-12c44b98549c")
 	)
-	(hierarchical_label "CH0_B"
-		(shape output)
-		(at 213.36 48.26 0)
+	(hierarchical_label "+5VISO"
+		(shape passive)
+		(at 129.54 125.73 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "fc15a07f-8ef7-499b-9a2a-8fe2d983dfaf")
+		(uuid "de9d4da1-f89f-4306-9f0a-3855844b0dc8")
 	)
 	(symbol
 		(lib_id "power:GND3")
@@ -4319,6 +4319,119 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48291f80-6232-44bb-88d0-fc65b9c563a7")
+		(property "Reference" "R8"
+			(at 147.32 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 147.32 123.698 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 143.002 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.es/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "YAGEO"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "RC0805FR-070RL"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://www.mouser.es/ProductDetail/YAGEO/RC0805FR-070RL?qs=fRxXYNj8ftF6kXqh1XbZJQ%3D%3D"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "603-RC0805FR-070RL"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a42b0be4-3a0b-4ef8-aefa-5fb275d0aae9")
+		)
+		(pin "1"
+			(uuid "82d9ee49-f4f1-4ad7-9136-74fa39cc8c46")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5575,119 +5688,6 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 120.65 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d17d7563-d247-42c5-9511-5febc6d9a1b7")
-		(property "Reference" "R8"
-			(at 147.32 118.618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 147.32 123.698 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 143.002 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.es/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" "YAGEO"
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" "RC0805FR-070RL"
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PN" "Mouser"
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1PL" "https://www.mouser.es/ProductDetail/YAGEO/RC0805FR-070RL?qs=fRxXYNj8ftF6kXqh1XbZJQ%3D%3D"
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "S1P#" "603-RC0805FR-070RL"
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a42b0be4-3a0b-4ef8-aefa-5fb275d0aae9")
-		)
-		(pin "1"
-			(uuid "82d9ee49-f4f1-4ad7-9136-74fa39cc8c46")
-		)
-		(instances
-			(project "techstim-hardware"
-				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/be4170ac-acbe-4846-95eb-caba09b1a46c"
-					(reference "R8")
 					(unit 1)
 				)
 			)
