@@ -133,6 +133,163 @@
 				)
 			)
 		)
+		(symbol "Diode:SMAJ5.0CA"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ5.0CA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ5.0CA_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ5.0CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Technaid:ISO7640FMDWR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1781,12 +1938,6 @@
 		(uuid "64cef288-2a9d-48b4-89b7-82a826174217")
 	)
 	(junction
-		(at 142.24 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bcc2e67-f13f-42d5-853d-993886a9be8d")
-	)
-	(junction
 		(at 240.03 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1999,16 +2150,6 @@
 			(type default)
 		)
 		(uuid "073ff6d7-70bc-4a59-8ead-ff26ffdc59bd")
-	)
-	(wire
-		(pts
-			(xy 142.24 109.22) (xy 142.24 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0825f9eb-fb8c-475d-b231-2408c2d25984")
 	)
 	(wire
 		(pts
@@ -4211,6 +4352,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 203.2 59.69 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "121920b6-d181-4ceb-a1b9-e41cdd02299a")
+		(property "Reference" "D17"
+			(at 201.93 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ110CD-M3/H"
+			(at 205.74 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 110V 600W Bidir TransZorb 3.5% Tol"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay General Semiconductor"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "SMBJ110CD-M3/H"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 203.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b335bda-04e5-4c90-943c-7f758f4c7374")
+		)
+		(pin "1"
+			(uuid "240d6d8a-1a51-4b66-8901-01e463351c6d")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND3")
 		(at 53.34 48.26 0)
 		(unit 1)
@@ -4343,6 +4599,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 240.03 90.17 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "256c66a6-a326-4743-b344-6d90c4add248")
+		(property "Reference" "D23"
+			(at 238.76 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ110CD-M3/H"
+			(at 242.57 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 245.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 110V 600W Bidir TransZorb 3.5% Tol"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay General Semiconductor"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "SMBJ110CD-M3/H"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79764f4d-1cd5-4be6-8258-9f5b4d89ada1")
+		)
+		(pin "1"
+			(uuid "beb85871-5103-44f9-84d5-06725030fbf9")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND3")
 		(at 154.94 50.8 0)
 		(unit 1)
@@ -4403,6 +4774,236 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 209.55 59.69 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "2f8ee7cf-a83a-4607-866d-61735e28db2d")
+		(property "Reference" "D18"
+			(at 208.28 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ110CD-M3/H"
+			(at 212.09 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 110V 600W Bidir TransZorb 3.5% Tol"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay General Semiconductor"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "SMBJ110CD-M3/H"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 209.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32299d1e-fc0e-4821-9fd0-6791f9741108")
+		)
+		(pin "1"
+			(uuid "f9468d23-25e0-4f64-95cd-9eb893127a5b")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 246.38 59.69 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3181a94b-0973-4660-b2b8-bd02e39decc5")
+		(property "Reference" "D20"
+			(at 245.11 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ110CD-M3/H"
+			(at 248.92 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 251.46 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 110V 600W Bidir TransZorb 3.5% Tol"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay General Semiconductor"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "SMBJ110CD-M3/H"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55b6d002-ecad-4af6-a19e-224a9eec5226")
+		)
+		(pin "1"
+			(uuid "871e93f5-d6f9-4f42-bda4-3b2dffe594b6")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -4601,6 +5202,236 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 240.03 59.69 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "45207197-84d4-404c-bca0-618ed0d96dc0")
+		(property "Reference" "D19"
+			(at 238.76 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ110CD-M3/H"
+			(at 242.57 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 110V 600W Bidir TransZorb 3.5% Tol"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay General Semiconductor"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "SMBJ110CD-M3/H"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6412205f-3bca-4f7b-a751-d9b85308d29d")
+		)
+		(pin "1"
+			(uuid "11eb9177-15ae-4311-b7c5-5af11222677e")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 209.55 90.17 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "5351c42b-c778-4fe9-84ba-3f0e49e060d3")
+		(property "Reference" "D22"
+			(at 208.28 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ110CD-M3/H"
+			(at 212.09 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 214.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 110V 600W Bidir TransZorb 3.5% Tol"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay General Semiconductor"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "SMBJ110CD-M3/H"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5e99706-2090-419d-bddd-3a155fde63ee")
+		)
+		(pin "1"
+			(uuid "6e867ec4-6fd1-4714-a285-fe5f68c77e9d")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -4978,6 +5809,236 @@
 			(project "techstim-hardware"
 				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 246.38 90.17 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "df7f7c83-d102-489b-a823-8d02076c8039")
+		(property "Reference" "D24"
+			(at 245.11 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ110CD-M3/H"
+			(at 248.92 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 251.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 110V 600W Bidir TransZorb 3.5% Tol"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay General Semiconductor"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "SMBJ110CD-M3/H"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7319be2d-1b88-40a9-a30f-a18083156c1a")
+		)
+		(pin "1"
+			(uuid "bda9e145-4e8c-4334-991b-cda37468cfe6")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0CA")
+		(at 203.2 90.17 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ea4044cc-d60e-48fa-b6d2-fe3e0cf20173")
+		(property "Reference" "D21"
+			(at 201.93 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ110CD-M3/H"
+			(at 205.74 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes 110V 600W Bidir TransZorb 3.5% Tol"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" "Vishay General Semiconductor"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" "SMBJ110CD-M3/H"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PN" "Mouser"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1PL" "https://eu.mouser.com/ProductDetail/Vishay-General-Semiconductor/SMBJ110CD-M3-H?qs=5aG0NVq1C4wCMBQujN%252BJrQ%3D%3D"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S1P#" "78-SMBJ110CD-M3/H "
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bbb1497-7bcf-43a1-807f-1ff8495c85cb")
+		)
+		(pin "1"
+			(uuid "f2e03ee9-b00d-4e05-a659-b5725aaac2b1")
+		)
+		(instances
+			(project "techstim-hardware"
+				(path "/1d5ae591-53a2-4652-87aa-0cddc0836341/2a4d6a24-4920-45e5-b1da-9a132104b07c"
+					(reference "D21")
 					(unit 1)
 				)
 			)
