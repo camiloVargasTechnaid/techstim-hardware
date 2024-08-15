@@ -3929,6 +3929,7 @@
 					)
 					(alternate "" input line)
 					(alternate "I2C2_SCL" bidirectional line)
+					(alternate "" input line)
 					(alternate "TIM2_CH3" bidirectional line)
 					(alternate "USART3_TX" bidirectional line)
 				)
@@ -3953,6 +3954,7 @@
 					(alternate "ADC1_EXTI11" bidirectional line)
 					(alternate "ADC2_EXTI11" bidirectional line)
 					(alternate "I2C2_SDA" bidirectional line)
+					(alternate "" input line)
 					(alternate "TIM2_CH4" bidirectional line)
 					(alternate "USART3_RX" bidirectional line)
 				)
@@ -18428,7 +18430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
 			(at 256.2352 33.02 0)
 			(effects
 				(font
@@ -23650,16 +23652,6 @@
 			)
 			(uuid "32bdda6b-1644-4fdd-b32d-7675485581f0")
 		)
-		(pin "LE" input
-			(at 318.77 189.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3ddb7207-1862-477d-a932-dcc50f349f0e")
-		)
 		(pin "CLR" input
 			(at 318.77 191.77 180)
 			(effects
@@ -23799,6 +23791,16 @@
 				(justify left)
 			)
 			(uuid "fed4e914-6f0d-4caa-93fb-d1d5cf21d798")
+		)
+		(pin "~{LE}" input
+			(at 318.77 189.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5fb94d82-a285-4239-991a-d957185aafeb")
 		)
 		(instances
 			(project "techstim-hardware"

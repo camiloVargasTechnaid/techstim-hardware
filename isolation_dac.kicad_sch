@@ -9681,7 +9681,7 @@
 				)
 			)
 		)
-		(property "Value" "ISO7641FMDWR"
+		(property "Value" "ISO7640FMDWR"
 			(at 114.554 98.552 0)
 			(effects
 				(font

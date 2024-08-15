@@ -4089,15 +4089,15 @@
 		(dnp no)
 		(uuid "02454283-7dd9-4bc7-90fa-04057bdd8209")
 		(property "Reference" "IC8"
-			(at 33.02 23.876 0)
+			(at 28.448 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ISO7641FMDWR"
-			(at 33.02 26.416 0)
+		(property "Value" "ISO7640FMDWR"
+			(at 34.036 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
